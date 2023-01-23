@@ -1,0 +1,4 @@
+baseURL = 'http://Halfgear.github.io/'
+languageCode = 'en-us'
+title = 'Joon Career'
+theme = 'hugo-coder'
