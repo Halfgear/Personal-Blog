@@ -1,7 +1,7 @@
 baseURL = 'http://Halfgear.github.io/'
 languageCode = 'en-us'
 
-title = 'Joon Career'
+title = 'Joon Careers'
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
 
