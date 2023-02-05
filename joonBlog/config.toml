@@ -15,7 +15,7 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
   author = "HwiJoon Lee"
-  info = "Computer Science Student in Northeastern Univ"
+  info = ["CS student in Northeastern Univ"]
   description = "self representation"
   keywords = "blog,developer,career"
   avatarurl = "https://cdn.discordapp.com/attachments/1041997793927110708/1066955297832308846/IMG_1516.jpg"
@@ -49,18 +49,18 @@ disqusShortname = "yourdiscussshortname"
   url = "https://github.com/Halfgear/"
 [[params.social]]
   name = "joonlh"
-  icon = "fa fa-gitlab fa-2x"
+  icon = "fa fa-instagram fa-2x"
   weight = 2
   url = "https://www.instagram.com/joonlh/"
 [[params.social]]
   name = "Discord"
-  icon = "fa fa-twitter fa-2x"
+  icon = "fa fa-discord fa-2x"
   weight = 3
-  url = "discordapp.com/users/287802139781103616"
+  url = "https://discordapp.com/users/287802139781103616"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "Post"
   weight = 1
   url  = "posts/"
 [[menu.main]]
