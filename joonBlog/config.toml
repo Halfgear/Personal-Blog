@@ -48,7 +48,7 @@ disqusShortname = "yourdiscussshortname"
   weight = 1
   url = "https://github.com/Halfgear/"
 [[params.social]]
-  name = "joonlh"
+  name = "instagram"
   icon = "fa fa-instagram fa-2x"
   weight = 2
   url = "https://www.instagram.com/joonlh/"
