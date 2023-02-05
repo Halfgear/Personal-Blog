@@ -5,3 +5,6 @@
 	path = joonBlog/public
 	url = https://github.com/Halfgear/Halfgear.github.io.git
 	branch = main
+[submodule "joonBlog/Halfgear.github.io"]
+	path = joonBlog/Halfgear.github.io
+	url = https://github.com/Halfgear/Halfgear.github.io.git
