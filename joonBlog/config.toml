@@ -1,4 +1,69 @@
 baseURL = 'http://Halfgear.github.io/'
 languageCode = 'en-us'
+
 title = 'Joon Career'
-theme = 'hugo-coder'
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "HwiJoon Lee"
+  info = "Computer Science Student in Northeastern Univ"
+  description = "self representation"
+  keywords = "blog,developer,career"
+  avatarurl = "https://cdn.discordapp.com/attachments/1041997793927110708/1066955297832308846/IMG_1516.jpg"
+  #gravatar = "lee.hw@northeastern.edu"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Halfgear/"
+[[params.social]]
+  name = "joonlh"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://www.instagram.com/joonlh/"
+[[params.social]]
+  name = "Discord"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "discordapp.com/users/287802139781103616"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
