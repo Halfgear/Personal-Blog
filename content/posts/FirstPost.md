@@ -1,7 +1,7 @@
 +++ 
-draft = true
+draft = false
 date = 2023-01-22T19:57:18-05:00
-title = "My first post"
+title = "First post"
 description = ""
 slug = ""
 authors = []
@@ -10,3 +10,4 @@ categories = []
 externalLink = ""
 series = []
 +++
+Do I write it here?
