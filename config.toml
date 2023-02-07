@@ -16,7 +16,7 @@ disqusShortname = "yourdiscussshortname"
 [params]
   author = "HwiJoon Lee"
   info = ["Junior Software Developer", "lee.hw@northeastern.edu"]
-  description = "self representation"
+  description = "Check About!"
   keywords = "blog,developer,career"
   avatarurl = "https://cdn.discordapp.com/attachments/1041997793927110708/1066955297832308846/IMG_1516.jpg"
   #gravatar = "lee.hw@northeastern.edu"
@@ -28,11 +28,11 @@ disqusShortname = "yourdiscussshortname"
 
   enableTwemoji = true
 
-  colorScheme = "auto"
+  colorScheme = "dark"
   hidecolorschemetoggle = false
 
   #customCSS = ["css/carousel.css"]
-  # customSCSS = ["scss/custom.scss"]
+  #customSCSS = ["scss/custom.scss"]
   #customJS = ["js/carousel.js"]
 
 [taxonomies]
@@ -65,22 +65,18 @@ disqusShortname = "yourdiscussshortname"
 
 # Menu links
 [[menu.main]]
-  name = "Post"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
   name = "Class"
-  weight = 2
+  weight = 1
   url = "class/"
 [[menu.main]]
   name = "Games"
-  weight = 3
+  weight = 2
   url = "games/"
 [[menu.main]]
   name = "Projects"
-  weight = 4
+  weight = 3
   url = "projects"
 [[menu.main]]
   name = "About"
-  weight = 5
+  weight = 4
   url = "about/me/"
