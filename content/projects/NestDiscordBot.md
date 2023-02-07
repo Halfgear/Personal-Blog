@@ -10,5 +10,5 @@ categories = []
 externalLink = ""
 series = []
 +++
-asd
+I will elaborate about this project soon.
 
