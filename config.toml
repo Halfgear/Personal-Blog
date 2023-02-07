@@ -15,7 +15,7 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
   author = "HwiJoon Lee"
-  info = ["CS student in Northeastern Univ", "lee.hw@northeastern.edu"]
+  info = ["Junior Software Developer", "lee.hw@northeastern.edu"]
   description = "self representation"
   keywords = "blog,developer,career"
   avatarurl = "https://cdn.discordapp.com/attachments/1041997793927110708/1066955297832308846/IMG_1516.jpg"
