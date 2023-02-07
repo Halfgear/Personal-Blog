@@ -15,7 +15,7 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
   author = "HwiJoon Lee"
-  info = ["CS student in Northeastern Univ"]
+  info = ["CS student in Northeastern Univ", "lee.hw@northeastern.edu"]
   description = "self representation"
   keywords = "blog,developer,career"
   avatarurl = "https://cdn.discordapp.com/attachments/1041997793927110708/1066955297832308846/IMG_1516.jpg"
@@ -31,9 +31,9 @@ disqusShortname = "yourdiscussshortname"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  #customCSS = ["css/carousel.css"]
   # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+  #customJS = ["js/carousel.js"]
 
 [taxonomies]
   category = "categories"
@@ -82,5 +82,5 @@ disqusShortname = "yourdiscussshortname"
   url = "projects"
 [[menu.main]]
   name = "About"
-  weight = 4
+  weight = 5
   url = "about/me/"
