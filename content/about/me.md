@@ -10,7 +10,7 @@ As a computer science student, I have a true passion for technology and gaming. 
 
 When it comes to gaming, I have a special interest in team-based games and RPGs. I enjoy analyzing what makes games like League of Legends, Valorant, Lost Ark, and many others so fun and engaging. I believe that by truly understanding the underlying mechanics and systems of these games, I can improve my own skills and share my insights with the gaming development community.
 
-{{< gallery-slider dir="/about/me/" width="800px" height="350px" >}}
+{{< gallery-slider dir="/about/me/" width="860px" height="462px" >}}
 
 My goal for this website is to share my journey and connect with others who share my passions. I'm excited to share my journey and connect with like-minded individuals. I'm looking forward to getting to know you all. 
 
