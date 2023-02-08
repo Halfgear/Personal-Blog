@@ -1,4 +1,3 @@
-[submodule "joonBlog/themes/hugo-coder"]
-	path = joonBlog/themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
-
+[submodule "joonBlog/themes/hugo-profile"]
+	path = joonBlog/themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile.git
