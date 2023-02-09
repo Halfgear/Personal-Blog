@@ -21,9 +21,6 @@ Software engineering is a rapidly changing field. Every day, new tools and techn
 ## How I reached out to them
 After completing the basic Computer Science classes, I looked for interesting side projects to join. I sent an e-mail to one of my favorite League YouTuber expressing my interest to join any proejcts and my desire to collaborate. To my surprise, the CEO responded and suggested that I start by helping with management of Discord community called NoTrollz for league of legend friendly matchs between clubs first. Then see if we could further develop something once we got to know each other better. I was thrilled to have the opportunity to work with a real-world company and acquire some valuable experience.
 
-
-![NoTrollz](/projects/NoTrollz.jpg)
-
 ## Working on the Project
 My recent project was to create a discord bot that manages user's roles and teams. The goal of the project was to learn Typescript and NestJs that would make the bot to be accessible to company's current work environment. One of the biggest challenges I faced was learning how to learning new language and framework with limited amount of documents. These tools are relatively new and I had no prior experience working with them. Despite the challenges, I was ultimately able to create a simple bot that automated the chore for the server manager.
 
