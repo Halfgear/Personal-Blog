@@ -8,7 +8,6 @@ tags:
   - AI
   - League of Legend
   - Faker
-  - AI
 image: /posts/League/faker.jpeg
 description: "Thoughts about AI as a player in League of Legend"
 toc:
