@@ -31,7 +31,7 @@ Menus:
       weight: 1
     # - identifier: gallery
     #   name: Gallery
-    #   title: Blog posts
+    #   title: Blog Photos
     #   url: /gallery
     #   weight: 2
     #Dropdown menu
