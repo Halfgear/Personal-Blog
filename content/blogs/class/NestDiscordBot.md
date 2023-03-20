@@ -29,7 +29,50 @@ My recent project was to create a discord bot that manages user's roles and team
 ## Continuing Education 
 After the first part, I had a meeting with a senior developer from the company I'm working with. During the meeting, we discussed the current feature and the senior developer suggested to create a user data base and develop a more advanced automation bot. 
 
-The automation of the feature could not be done solely with Discord's features and a database was necessary to handle user's roles and teams for extendability and sustainability. To match the company's existing system, I am learning to use Docker Compose and PostgreSQL. To ensure my plan of action would work, I conducted research and experimented with the new technologies before implementing them into the project.
+The automation of the feature could not be done solely with Discord's features and a database was necessary to handle user's roles and teams for extendability and sustainability. To match the company's existing system, I learned and implemented Docker Compose and PostgreSQL. To ensure my plan of action would work, I conducted research and experimented with the new technologies before implementing them into the project.
+
+## Dockerizing the bot
+To begin with, I created a devcontainer with psql database in VS code, which allowed me to develop and test my bot in a containerized environment. Since this bot will run under AWS in future, I had to create the containerized environment to minimize unexpected bug. This was a crucial step in ensuring that my development environment was consistent across different machines.
+
+Next, I built a data table using TypeORM Entity. When building the data table for my Discord bot, I took into consideration the potential future development plans and added data types that I would need from users.
+```
+@Entity()
+export class notrollz_entity extends BaseEntity {
+    @PrimaryGeneratedColumn("uuid")
+    uuid: string
+
+    @Index("discord_id", { unique: true })
+    @Column({ type: "varchar" })
+    discord_id: string
+
+    @Column({ type: "varchar" })
+    discord_tag: string
+
+    @Column({ type: "varchar" })
+    summoner_name: string
+
+    @Column({
+        type: "varchar",
+        default: ""
+    })
+    team_name: string
+
+    @Column({
+        type: "boolean",
+        default: false
+    })
+    team_catain?: boolean
+
+}
+```
+One issue I encountered while building the data table was with the formatting of the Discord IDs. To resolve this, I used the uuid generator from Node.js to generate unique IDs for each user and gave the unique property to discord_id to prevent duplicate user registration on the database. By creating a well-structured data table with appropriate data types and using a unique ID generator, I was able to ensure that my Discord bot could accurately and efficiently store and retrieve user data. I then sent a query from my nestjs app with typeorm to qsql in the devcontainer to test the functionality of data table.
+
+<img src="/projects/psql_command.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 97%; height: 97%;"/>
+
+
+After completing the initial development of the bot, I made the nestjs app into a Docker image and included it in a docker-compose file. This allowed me to easily deploy the bot to different environments and delegate the bot service to AWS instead of local computer. I also built a connection to psql in the new image with conscious volume mount, which was necessary for persisting data. When the connection was successful, I was very happy with my progress.
+
+![discord_usage](/projects/discord_usage.PNG)
 
 ## Conclusion
-Overall, my experience working on this project was very rewarding. In a short amount of time, I was able to apply my knowledge of Object Oriented Design and acquire new experiences. Continuous education is an important part of staying up to date in the ever-changing world of software engineering and this project gave me the great lesson. By researching and experimenting with the latest tools and technologies, I am looking forward to create an advanced bot that improved the workflow of the community management of the company.
+Overall, my experience working on this project was very rewarding. In a short amount of time, I was able to apply my knowledge of Object Oriented Design and acquire new experiences with docker containers, postgres, and javascript. Continuous education is an important part of staying up to date in the ever-changing world of software engineering and this project gave me the great lesson. By researching and experimenting with the latest tools and technologies, I am looking forward to create an advanced bot that improved the workflow of the community management of the company.
