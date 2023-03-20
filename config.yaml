@@ -1,7 +1,7 @@
 baseURL: "https://jooncode.com"
 languageCode: "en-us"
 title: "Joon Profile"
-theme: hugo-profile
+theme: profile
 
 outputs:
   home:
