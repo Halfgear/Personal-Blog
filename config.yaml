@@ -167,6 +167,20 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Discord Service Developer"
+        company: "PS Analytics Co"
+        companyUrl: "https://lol.ps"
+        date: "Dec 2022 - present"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          I am currently participating to develop a discord bot that manages channel member and teams.
+          - Development story is in https://jooncode.com/blogs/class/nestdiscordbot/ please take a look!
+          - Discord Bot structured with Nest framework and discord.js.
+          
       - job: "Object Oriented Design TA"
         company: "Northeastern University"
         companyUrl: "https://www.khoury.northeastern.edu"
@@ -180,21 +194,8 @@ params:
           - Facilitated student understanding of OOD principles by guiding them in maintainable code. 
           - Instructed a diverse group of students on various object-oriented design strategies.
 
-      - job: "Discord Service Developer"
-        company: "PS Analytics Co"
-        companyUrl: "https://lol.ps"
-        date: "Dec 2022 - present"
-        info:
-          enable: false
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        content: |
-          I am currently participating to develop a discord bot that manages channel member and teams.
-          - Currently learning about docker-compose and PostgreSQL to manage larger data set.
-          - Discord Bot structured with Nest framework and discord.js.
-      
 
+      
       - job: "CBRN Specialist"
         company: "Republic of Korea Army"
         companyUrl: "https://en.wikipedia.org/wiki/Republic_of_Korea_Army"
