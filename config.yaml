@@ -118,7 +118,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "HwiJoon Lee."
-    subtitle: "Software developer"
+    subtitle: "Backend developer"
     content: "A passionate 4th year Computer Science Student"
     image: /me/AI.jpg
     # roundImage: true # Make hero image circular | default false
@@ -145,7 +145,7 @@ params:
     title: "About Me"
     image: "/me/selfie.JPG"
     content: |-
-      As a computer science student, I have a true passion for technology and gaming.
+      As a computer science student, I have a true passion for technology and studying game industry.
       I switched my major from chemistry to computer science in my third year of university 
       and it has been one of the best decisions I've ever made.
       Although I may have started my journey a little later than some of my peers, 
@@ -194,8 +194,6 @@ params:
           - Facilitated student understanding of OOD principles by guiding them in maintainable code. 
           - Instructed a diverse group of students on various object-oriented design strategies.
 
-
-      
       - job: "CBRN Specialist"
         company: "Republic of Korea Army"
         companyUrl: "https://en.wikipedia.org/wiki/Republic_of_Korea_Army"
