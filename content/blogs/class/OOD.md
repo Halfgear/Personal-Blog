@@ -22,6 +22,7 @@ description: "Explanation of Design Patterns for beginners"
 
 public class HelloWorld{
     public static void main(String[] args) {
+        
         Singleton a = Singleton.getInstance();
         Singleton b = Singleton.getInstance();
         System.out.println(a.hashCode());
