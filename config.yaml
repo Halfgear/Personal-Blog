@@ -252,8 +252,7 @@ params:
           - "Object Oriented Design"
 
       - title: NestDiscordBot
-        content: Currently learning and developing with PostgresSQL and docker-compose.,
-        image: /projects/docker+postgresql.jpeg
+        content: Developed with Nestjs, PostgresSQL and docker-compose. Visit https://jooncode.com/blogs/class/nestdiscordbot/ for more details.
         badges:
           - "Nest"
           - "TypeScript"
