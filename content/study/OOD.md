@@ -116,7 +116,7 @@ We have a CoffeeFactory class that has a static method getCoffee(). This method 
      }
 } 
 ```
-
+output:
 ```
 Factory latte: Price: 4000
 Factory ame: Price: 3000
@@ -269,7 +269,8 @@ Finally, we have a main class that creates a topic and two observers: a and b. T
 }
 ```
 output:
-```/*
+```
+/*
 a >> Hello World
 b >> Hello World
 */ 
