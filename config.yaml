@@ -112,7 +112,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "HwiJoon Lee."
+    title: "HwiJoon Lee"
     subtitle: "Backend developer (Java/Nodejs)"
     content: "A passionate 4th year Computer Science Student"
     image: /me/AI.jpg
