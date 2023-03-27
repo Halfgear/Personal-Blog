@@ -1,6 +1,6 @@
 ---
 title: "Discord Bot Development story"
-date: 2023-02-08
+date: 2023-03-08
 draft: false
 github_link: "https://github.com/Halfgear/NestDiscordBot.git"
 author: "HwiJoon Lee"
