@@ -1,6 +1,6 @@
 ---
 title: "Design Patterns"
-date: 2023-02-08
+date: 2023-03-27
 draft: false
 author: "HwiJoon Lee"
 tags:
@@ -31,8 +31,7 @@ The 'INSTANCE' variable is the only instance of Singleton class. By declaring 'I
 
 The 'getInstance()' method returns the single instance of the class as a getter. 'public' keywords allow the method to be accessed from outside the Singleton class. It provides the global access point to our instance throught the program.
 
-```
-public class HelloWorld{
+```public class HelloWorld{
     public static void main(String[] args) {
         
         Singleton a = Singleton.getInstance();
@@ -87,8 +86,7 @@ public class Americano extends Coffee {
     } 
 }
 ```
-```
-public class CoffeeFactory {
+``public class CoffeeFactory {
     //factory method to create object of type Coffee
     public static Coffee getCoffee(String type, int price){
         if("Latte".equalsIgnoreCase(type)) {
@@ -109,8 +107,7 @@ There could be more concrete classes that extend Coffee, such as Espresso, Mocha
 
 We have a CoffeeFactory class that has a static method getCoffee(). This method takes in a type and a price and returns a Coffee object. The getCoffee() method uses the type parameter to determine which concrete class to instantiate. The price parameter is passed to the constructor of the concrete class. This way, we can create a coffee object without having to write a lot of code. We can create new coffee obejcts just by calling the getCoffee(type, price) method. The output of the code below is as follows:
 
-```
-public class HelloWorld{ 
+```public class HelloWorld{ 
      public static void main(String []args){ 
         Coffee latte = CoffeeFactory.getCoffee("Latte", 5);
         Coffee ame = CoffeeFactory.getCoffee("Americano", 4); 
@@ -136,16 +133,14 @@ public interface Operation {
 }
 ```
 This interface is simply defining a method that takes two integers and returns an integer. You would then create two classes that implement this interface for each type of operation you need to perform. For example:
-```
-public class Addition implements Operation {
+```public class Addition implements Operation {
     public int performOperation(int a, int b) {
         //1+1 = 2
         return a + b;
     }
 }
 ```
-```
-public class Concatenation implements Operation {
+```public class Concatenation implements Operation {
     public int performOperation(int a, int b) {
         //1 cat 1 = 11
         return Integer.parseInt(Integer.toString(a) + Integer.toString(b));
@@ -156,8 +151,7 @@ In these examples, Addition performs addition on two integers, while Concatenati
 
 Finally, you would create a class that uses these operations. 
 For example:
-```
-public class Calculator {
+```public class Calculator {
     private Operation operation;
     
     public void setOperation(Operation operation) {
@@ -194,8 +188,7 @@ interface Observer {
 ```
 In this example, we have a Subject interface that defines the methods that must be implemented as a subject. The register() method is used to register an observer object. The notifyObservers() method is used to notify all registered observers. The getUpdate() method is a getter method to obtain the most recent message from a observer.
 
-```
-class Topic implements Subject {
+```class Topic implements Subject {
     //list of observers
     private List<Observer> observers;
     //message sent to the topic
@@ -240,8 +233,7 @@ class Topic implements Subject {
     }
 }
 ```
-```
-class TopicSubscriber implements Observer {
+```class TopicSubscriber implements Observer {
     //name of the observer
     private String name;
     private Subject topic;
@@ -264,8 +256,7 @@ In the example, we have a Topic class that creates a topic that observers can su
 
 Finally, we have a main class that creates a topic and two observers: a and b. The observers are then registered to the topic. The topic then posts a message, which notifies all observers to print out the message.
 
-```
-public class HelloWorld { 
+```public class HelloWorld { 
     public static void main(String[] args) {
         Topic topic = new Topic(); 
         Observer a = new TopicSubscriber("a", topic);
@@ -278,8 +269,7 @@ public class HelloWorld {
 }
 ```
 output:
-```
-/*
+```/*
 a >> Hello World
 b >> Hello World
 */ 
