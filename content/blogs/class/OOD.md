@@ -1,7 +1,7 @@
 ---
 title: "Design Patterns"
 date: 2023-02-08
-draft: true
+draft: false
 author: "HwiJoon Lee"
 tags:
   - Object Oriented Design
@@ -55,16 +55,16 @@ The factory pattern is a creational pattern that allows you to create objects wi
 
 
 
-```abstract class Coffee {
+```public abstract class Coffee {
     //abstract method, so subclass must implement this method 
     public abstract int getPrice(); 
     
     @Override
     public String toString(){
-        return "Hi this coffee is "+ this.getPrice();
+        return "Price: "+ this.getPrice();
     }
 }
-class Latte extends Coffee { 
+public class Latte extends Coffee { 
     private int price; 
     
     public Latte(int price){
@@ -75,7 +75,7 @@ class Latte extends Coffee {
         return this.price;
     } 
 }
-class Americano extends Coffee { 
+public class Americano extends Coffee { 
     private int price; 
     
     public Americano(int price){
@@ -86,7 +86,9 @@ class Americano extends Coffee {
         return this.price;
     } 
 }
-class CoffeeFactory {
+```
+```
+public class CoffeeFactory {
     //factory method to create object of type Coffee
     public static Coffee getCoffee(String type, int price){
         if("Latte".equalsIgnoreCase(type)) {
@@ -116,41 +118,44 @@ public class HelloWorld{
         System.out.println("Factory ame: "+ ame); 
      }
 } 
-/*
-Factory latte: Hi this coffee is 4000
-Factory ame: Hi this coffee is 3000
-*/
+```
+
+```
+Factory latte: Price: 4000
+Factory ame: Price: 3000
 ```
 Factory pattern is a powerful design pattern that allows you to create objects without specifying the exact class of object that will be created. If you are writing a program that needs to create many objects of the same type, you should consider using the factory pattern.
 
 ## Strategy Pattern
-Here's a simple example of the strategy pattern in Java: let's say you have a program that needs to perform different operations on data depending on the data's type. For example, you might need to perform addition on numbers, but concatenate strings instead of adding them. You could use the strategy pattern to accomplish this.
+Strategy pattern is a behavioral design pattern that allows you to define a family of algorithms, put each of them into a separate class, and make their objects interchangeable. The pattern allows you to change the behavior of an object by changing the object's strategy.
+
+Here's a simple example of the strategy pattern in Java: Suppose you are writing a program that performs some operation on two integers. You would first define an interface that defines the operation:
 ```
 public interface Operation {
     public int performOperation(int a, int b);
 }
 ```
-This interface defines a single method, performOperation, that takes two integer arguments and returns an integer result.
-
-Next, you would create classes that implement this interface for each type of operation you need to perform. For example:
-
+This interface is simply defining a method that takes two integers and returns an integer. You would then create two classes that implement this interface for each type of operation you need to perform. For example:
 ```
 public class Addition implements Operation {
     public int performOperation(int a, int b) {
+        //1+1 = 2
         return a + b;
     }
 }
-
+```
+```
 public class Concatenation implements Operation {
     public int performOperation(int a, int b) {
+        //1 cat 1 = 11
         return Integer.parseInt(Integer.toString(a) + Integer.toString(b));
     }
 }
 ```
-In this example, Addition performs addition on two integers, while Concatenation concatenates them as strings and then converts the result back to an integer.
+In these examples, Addition performs addition on two integers, while Concatenation concatenates them as strings and then parses the result back to an integer.
 
-Finally, you would use these classes in your program to perform the appropriate operation based on the data type. For example:
-
+Finally, you would create a class that uses these operations. 
+For example:
 ```
 public class Calculator {
     private Operation operation;
@@ -165,20 +170,20 @@ public class Calculator {
 }
 
 ```
-This Calculator class takes an Operation object as input and uses it to perform the appropriate operation on two integers.
+This calculator class has a field called operation that is of type Operation. This field is set to an instance of Addition or Concatenation. The performOperation() method calls the performOperation() method on the operation field. This allows you to change the behavior of the calculator by just changing the operation field.
 
-Overall, the strategy pattern allows you to define a family of algorithms (in this case, operations on data) and encapsulate each one in a separate class. This makes it easy to switch between algorithms at runtime or reuse them in different contexts.
-
-
-
+Overall, Strategy pattern allows you to change the behavior of an object by changing the object's strategy. This is useful when you have multiple algorithms that perform the same task and you want to be able to switch between them at runtime.
 
 ## Observer Pattern
+Observer Pattern is a behavioral design pattern that allows one or more objects to watch an object and be notified when the object state updates. The observer pattern is also known as the publish/subscribe pattern. This pattern is useful when you have a 1-to-many relationship in objects. For example, if you have a relationship between employees and managers, then you can use the observer pattern to notify managers whenever an employee updates their status. 
+
+This is example code of the observer pattern:
+
 ```import java.util.ArrayList;
 import java.util.List;
 
 interface Subject {
     public void register(Observer obj);
-    public void unregister(Observer obj);
     public void notifyObservers();
     public Object getUpdate(Observer obj);
 }
@@ -186,82 +191,100 @@ interface Subject {
 interface Observer {
     public void update(); 
 }
+```
+In this example, we have a Subject interface that defines the methods that must be implemented as a subject. The register() method is used to register an observer object. The notifyObservers() method is used to notify all registered observers. The getUpdate() method is a getter method to obtain the most recent message from a observer.
 
+```
 class Topic implements Subject {
+    //list of observers
     private List<Observer> observers;
+    //message sent to the topic
     private String message; 
 
+    //constructor
     public Topic() {
         this.observers = new ArrayList<>();
         this.message = "";
     }
 
+    //method to attach an observer to the subject
     @Override
     public void register(Observer obj) {
-        if (!observers.contains(obj)) observers.add(obj); 
+        //check if observer is already registered
+        if (!observers.contains(obj)) {
+            observers.add(obj);
+        }
+        //else do nothing
     }
 
     @Override
-    public void unregister(Observer obj) {
-        observers.remove(obj); 
-    }
-
-    @Override
-    public void notifyObservers() {   
+    public void notifyObservers() {
+        //for each loop through all observers and notify them 
         this.observers.forEach(Observer::update); 
     }
 
+    //method to get updates from subject
     @Override
-    public Object getUpdate(Observer obj) {
+    public String getUpdate(Observer obj) {
+        //get the message from the observer
         return this.message;
     } 
     
+    //method to post message to the topic
     public void postMessage(String msg) {
-        System.out.println("Message sended to Topic: " + msg);
-        this.message = msg; 
+        //set the message
+        this.message = msg;
+
+        //notify all observers to post message
         notifyObservers();
     }
 }
-
+```
+```
 class TopicSubscriber implements Observer {
+    //name of the observer
     private String name;
     private Subject topic;
 
+    //constructor
     public TopicSubscriber(String name, Subject topic) {
         this.name = name;
         this.topic = topic;
     }
 
+    //method to print out the update. used by Subject class.
     @Override
     public void update() {
-        String msg = (String) topic.getUpdate(this); 
-        System.out.println(name + ":: got message >> " + msg); 
+        String msg = topic.getUpdate(this); 
+        System.out.println(name + " >> " + msg); 
     } 
 }
+```
+In the example, we have a Topic class that creates a topic that observers can subscribe to. The TopicSubscriber class creates an observer that can subscribe to a topic. 
 
+Finally, we have a main class that creates a topic and two observers: a and b. The observers are then registered to the topic. The topic then posts a message, which notifies all observers to print out the message.
+
+```
 public class HelloWorld { 
     public static void main(String[] args) {
         Topic topic = new Topic(); 
         Observer a = new TopicSubscriber("a", topic);
         Observer b = new TopicSubscriber("b", topic);
-        Observer c = new TopicSubscriber("c", topic);
         topic.register(a);
         topic.register(b);
-        topic.register(c); 
    
-        topic.postMessage("amumu is op champion!!"); 
+        topic.postMessage("Hello World"); 
     }
 }
+```
+output:
+```
 /*
-Message sended to Topic: amumu is op champion!!
-a:: got message >> amumu is op champion!!
-b:: got message >> amumu is op champion!!
-c:: got message >> amumu is op champion!!
+a >> Hello World
+b >> Hello World
 */ 
 ```
-## MCV Pattern
+In this example, the topic is the subject and the observers are the objects that are watching the subject. The observers are notified whenever the subject updates its state. It demonstarted how the observer pattern can create a 1-to-many relationship between objects. Object pattern is used in many applications, such as in the Java Swing library to build Graphic User Interface.
 
-
-## MCP Pattern
-
-## MVVM Pattern
+## Conclusion
+In this post, we learned about the 4 common design patterns: Singleton pattern, the Factory pattern, the Strategy pattern, and the Observer pattern. A wise use of these patterns will create more flexible and reusable code for your program (they are very useful for OOD class as well). I will be writing more posts about design patterns such as Adaptor and MCV in the future, so stay tuned!
