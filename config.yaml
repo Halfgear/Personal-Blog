@@ -192,7 +192,6 @@ params:
         content: |
           - Facilitated student understanding of SOLID principles. 
           - Instructed students on various object-oriented design strategies.
-
       - job: "CBRN Specialist"
         company: "Republic of Korea Army"
         companyUrl: "https://en.wikipedia.org/wiki/Republic_of_Korea_Army"
@@ -205,8 +204,6 @@ params:
         content: |
           - Operated chemical reconnaissance equipment.
           - Recrutied as a translator for the ROK-US Combined Forces Command.
-
-
   # Education
   education:
     enable: true
@@ -221,7 +218,6 @@ params:
         GPA: "3.59 out of 4.0"
         content: |-
           4th year student. Currently rushing through all Computer Science courses due to late major change.
-
       - title: "High School"
         school:
           name: "Subiaco Academy"
@@ -252,7 +248,8 @@ params:
           - "Object Oriented Design"
 
       - title: NestDiscordBot
-        content: Developed with Nestjs, PostgresSQL and docker-compose. Visit https://jooncode.com/blogs/class/nestdiscordbot/ for more details.
+        content: Currently learning and developing with PostgresSQL and docker-compose.,
+        image: /projects/docker+postgresql.jpeg
         badges:
           - "Nest"
           - "TypeScript"
