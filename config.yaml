@@ -35,21 +35,17 @@ Menus:
     #   url: /gallery
     #   weight: 2
     # Dropdown menu
-    - identifier: dropdown
-      title: Blog
-      name: Posts
-      weight: 1
     - identifier: blog
       title: interests
       name: Interests
       url: /blogs
-      parent: dropdown
+      # parent: dropdown
       weight: 1
     - identifier: study
       title: study
       name: Study
       url: /study
-      parent: dropdown
+      # parent: dropdown
       weight: 2
 
 params:
@@ -106,11 +102,11 @@ params:
     disableSearch: false
     menus:
       disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
       disableAchievements: true
-      disableContact: false
+      disableContact: true
 
   # Hero
   hero:
