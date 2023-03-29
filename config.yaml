@@ -76,13 +76,13 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  # color preference
+  # # color preference
   # color:
   #   textColor: 
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
+  #   secondaryTextColor: false
+  #   backgroundColor: C5ADC5 # Pastel purple
+  #   secondaryBackgroundColor: B2B5E0 # light steel blue
+  #   primaryColor: 
   #   secondaryColor:
 
   #   darkmode:
