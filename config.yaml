@@ -41,9 +41,9 @@ Menus:
       url: /blogs
       # parent: dropdown
       weight: 1
-    - identifier: posts
-      title: study
-      name: Posts
+    - identifier: post
+      title: Post
+      name: Post
       url: /study
       # parent: dropdown
       weight: 2
@@ -121,7 +121,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1d_osyP4L1JlwaQs7e7EG6DVAX-5jT4wR/view?usp=sharing"
+      url: "https://docs.google.com/document/d/1aIfynNS2C6CA2gZL8I3l_RjVEDyIFYHr/edit?usp=sharing&ouid=118185476807190519222&rtpof=true&sd=true"
       download: true
       newPage: true
     socialLinks:
