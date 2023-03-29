@@ -255,9 +255,9 @@ params:
   contact:
     enable: true
     #title: ""
-    content: My email is always open. Hit me up whenever!
+    content: My email is always open.
     email: megalojoon@gmail.com
-    btnName: Click to Email me!
+    btnName: Send
     formspree:
       enable: true # `contact.email` value will be ignored
       formId: xayzpnnv # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
