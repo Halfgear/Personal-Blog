@@ -41,7 +41,9 @@
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/theme.css" media="all">
 
 <!-- Custom Styles -->
-
+{{ if .Site.Params.customCSS }}
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/style.css">
+{{ end }}
 
 <style>
     :root {
@@ -65,7 +67,6 @@
         font-weight: {{ .Site.Params.font.fontWeight | default "400" }};
         line-height: {{ .Site.Params.font.lineHeight | default "1.5" }};
         text-align: {{ .Site.Params.font.textAlign | default "left" }};
-        
     }
 
     html {
@@ -94,5 +95,4 @@
         height: .1em;
         background-color: var(--background-color);
     }
-    
 </style>

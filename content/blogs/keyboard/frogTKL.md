@@ -6,7 +6,7 @@ author: "HwiJoon Lee"
 tags:
   - Custom Keyboard
   - FrogTKL
-  - lubed cherry blakc
+  - lubed cherry black
 image: /posts/keyboard/frogtkl.jpg
 description: "FrogTKL typing video"
 toc:
