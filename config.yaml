@@ -41,9 +41,9 @@ Menus:
       url: /blogs
       # parent: dropdown
       weight: 1
-    - identifier: study
+    - identifier: posts
       title: study
-      name: Study
+      name: Posts
       url: /study
       # parent: dropdown
       weight: 2
@@ -214,15 +214,6 @@ params:
         GPA: "3.59 out of 4.0"
         content: |-
           4th year student. 2 semesters left.
-      - title: "High School"
-        school:
-          name: "Subiaco Academy"
-          url: "https://www.subiacoacademy.us"
-        GPA: "4.0 out of 4.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-
   # Achievements
   achievements:
     enable: false
@@ -260,7 +251,7 @@ params:
     #title: ""
     content: My email is always open. Hit me up whenever!
     email: megalojoon@gmail.com
-    btnName: Click to mail me!
+    btnName: Click to Email me!
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
