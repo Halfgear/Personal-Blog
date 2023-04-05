@@ -86,7 +86,7 @@ public class Americano extends Coffee {
     } 
 }
 ```
-``public class CoffeeFactory {
+```public class CoffeeFactory {
     //factory method to create object of type Coffee
     public static Coffee getCoffee(String type, int price){
         if("Latte".equalsIgnoreCase(type)) {
