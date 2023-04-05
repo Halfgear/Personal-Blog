@@ -55,27 +55,20 @@ public class Americano extends Coffee {
         return this.price;
     } 
 }
-</code></pre><p>``public class CoffeeFactory {
-//factory method to create object of type Coffee
-public static Coffee getCoffee(String type, int price){
-if(&ldquo;Latte&rdquo;.equalsIgnoreCase(type)) {
-return new Latte(price)
-};
-else if(&ldquo;Americano&rdquo;.equalsIgnoreCase(type)) {
-return new Americano(price)
-};
-else {
-System.out.println(&ldquo;Invalid Coffee Type&rdquo;);
+</code></pre><pre tabindex=0><code class=language-public data-lang=public>    //factory method to create object of type Coffee
+    public static Coffee getCoffee(String type, int price){
+        if(&#34;Latte&#34;.equalsIgnoreCase(type)) {
+            return new Latte(price)
+        };
+        else if(&#34;Americano&#34;.equalsIgnoreCase(type)) {
+            return new Americano(price)
+        };
+        else {
+            System.out.println(&#34;Invalid Coffee Type&#34;);
+        } 
+    }
 }
-}
-}</p><pre tabindex=0><code>We have an abstract class Coffee with an abstract method getPrice(). We then have two concrete classes that extend Coffee: Latte and Americano. Latte and Americano have a constructor that takes in a price and initialize the private field.
-
-There could be more concrete classes that extend Coffee, such as Espresso, Mocha, etc. If we create a new coffee object, we would have to write many lines of code to create the object with field initialization. This is where the factory pattern comes in!
-
-We have a CoffeeFactory class that has a static method getCoffee(). This method takes in a type and a price and returns a Coffee object. The getCoffee() method uses the type parameter to determine which concrete class to instantiate. The price parameter is passed to the constructor of the concrete class. This way, we can create a coffee object without having to write a lot of code. We can create new coffee obejcts just by calling the getCoffee(type, price) method. The output of the code below is as follows:
-
-```public class HelloWorld{ 
-     public static void main(String []args){ 
+</code></pre><p>We have an abstract class Coffee with an abstract method getPrice(). We then have two concrete classes that extend Coffee: Latte and Americano. Latte and Americano have a constructor that takes in a price and initialize the private field.</p><p>There could be more concrete classes that extend Coffee, such as Espresso, Mocha, etc. If we create a new coffee object, we would have to write many lines of code to create the object with field initialization. This is where the factory pattern comes in!</p><p>We have a CoffeeFactory class that has a static method getCoffee(). This method takes in a type and a price and returns a Coffee object. The getCoffee() method uses the type parameter to determine which concrete class to instantiate. The price parameter is passed to the constructor of the concrete class. This way, we can create a coffee object without having to write a lot of code. We can create new coffee obejcts just by calling the getCoffee(type, price) method. The output of the code below is as follows:</p><pre tabindex=0><code class=language-public data-lang=public>     public static void main(String []args){ 
         Coffee latte = CoffeeFactory.getCoffee(&#34;Latte&#34;, 5);
         Coffee ame = CoffeeFactory.getCoffee(&#34;Americano&#34;, 4); 
         System.out.println(&#34;Factory latte: &#34;+ latte);
