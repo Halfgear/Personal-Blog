@@ -162,7 +162,6 @@ For example:
         return operation.performOperation(a, b);
     }
 }
-
 ```
 This calculator class has a field called operation that is of type Operation. This field is set to an instance of Addition or Concatenation. The performOperation() method calls the performOperation() method on the operation field. This allows you to change the behavior of the calculator by just changing the operation field.
 
@@ -270,10 +269,8 @@ Finally, we have a main class that creates a topic and two observers: a and b. T
 ```
 output:
 ```
-/*
 a >> Hello World
 b >> Hello World
-*/ 
 ```
 In this example, the topic is the subject and the observers are the objects that are watching the subject. The observers are notified whenever the subject updates its state. It demonstarted how the observer pattern can create a 1-to-many relationship between objects. Object pattern is used in many applications, such as in the Java Swing library to build Graphic User Interface.
 
