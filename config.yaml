@@ -150,17 +150,31 @@ params:
       title: "Here are a few technologies I've been working with:"
       items:
         - "Java"
-        - "C"
+        - "Python"
         - "TypeScript"
         - "Docker"
         - "PostgresSQL"
-        - "Nodejs"
+        - "MongoDB"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Backend Developer"
+        company: "PS Analytics"
+        companyUrl: "https://lol.ps"
+        date: "Dec 2022 - present"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          - Developing new Valorant data analysis website using AWS, Kubernetes, Python, and MongoDB.
+          - Contributed to project proposal and implemented PostgreSQL and NestJS for website backend.
+          - Collaborated with other developers to build an extendable functionality
+
       - job: "Object Oriented Design TA"
         company: "Northeastern University"
         companyUrl: "https://www.khoury.northeastern.edu"
@@ -175,19 +189,6 @@ params:
           - Instructed on various object-oriented design strategies with examples.
           - Reviewed student code submissions to provide detailed feedback
 
-      - job: "Discord Service Developer"
-        company: "PS Analytics"
-        companyUrl: "https://lol.ps"
-        date: "Dec 2022 - present"
-        info:
-          enable: false
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        content: |
-          - Implemented a custom bot for a large-scale community gaming server
-          - Automated user registration and role management to improve team efficiency
-          - Collaborated with other developers to build an extendable functionality
 
       - job: "CBRN Specialist"
         company: "Korea Army"
