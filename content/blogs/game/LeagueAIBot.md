@@ -2,7 +2,7 @@
 title: "AI League of Legend"
 date: 2023-02-08
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
+github_link: "https://github.com/Halfgear"
 author: "HwiJoon Lee"
 tags:
   - AI
