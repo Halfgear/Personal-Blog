@@ -47,6 +47,18 @@ Menus:
       url: /study
       # parent: dropdown
       weight: 2
+    - identifier: dev
+      title: Dev
+      name: Dev
+      url: /dev
+      # parent: dropdown
+      weight: 3
+    - identifier: code
+      title: Code
+      name: Code
+      url: /code
+      parent: dev
+      weight: 3
 
 params:
   title: "Joon Career"
@@ -265,7 +277,7 @@ params:
 
   footer:
     recentPosts:
-      path: "study"
+      path: "dev"
       count: 3
       title: Recent Posts
       enable: true

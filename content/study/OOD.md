@@ -17,7 +17,8 @@ In this post, I'll share my experience as a OOD TA and insights on how these pat
 ## Singleton Pattern
 Singleton pattern helps in creating only one instance of a class and ensures that this instance is globally accessible throughout the program. The pattern works by defining a class that has only one instance and provide global point of access to that instance.
 
-```class Singleton{
+```java
+class Singleton{
     private static class singleInstanceHolder{
         private static final Singleton INSTANCE = new Singleton();
     }
@@ -31,7 +32,8 @@ The 'INSTANCE' variable is the only instance of Singleton class. By declaring 'I
 
 The 'getInstance()' method returns the single instance of the class as a getter. 'public' keywords allow the method to be accessed from outside the Singleton class. It provides the global access point to our instance throught the program.
 
-```public class HelloWorld{
+```java
+public class HelloWorld{
     public static void main(String[] args) {
         
         Singleton a = Singleton.getInstance();
@@ -54,7 +56,8 @@ The factory pattern is a creational pattern that allows you to create objects wi
 
 
 
-```public abstract class Coffee {
+```java
+public abstract class Coffee {
     //abstract method, so subclass must implement this method 
     public abstract int getPrice(); 
     
@@ -86,7 +89,8 @@ public class Americano extends Coffee {
     } 
 }
 ```
-```public class CoffeeFactory {
+```java
+public class CoffeeFactory {
     //factory method to create object of type Coffee
     public static Coffee getCoffee(String type, int price){
         if("Latte".equalsIgnoreCase(type)) {
@@ -107,7 +111,8 @@ There could be more concrete classes that extend Coffee, such as Espresso, Mocha
 
 We have a CoffeeFactory class that has a static method getCoffee(). This method takes in a type and a price and returns a Coffee object. The getCoffee() method uses the type parameter to determine which concrete class to instantiate. The price parameter is passed to the constructor of the concrete class. This way, we can create a coffee object without having to write a lot of code. We can create new coffee obejcts just by calling the getCoffee(type, price) method. The output of the code below is as follows:
 
-```public class HelloWorld{ 
+```java
+public class HelloWorld{ 
      public static void main(String []args){ 
         Coffee latte = CoffeeFactory.getCoffee("Latte", 5);
         Coffee ame = CoffeeFactory.getCoffee("Americano", 4); 
@@ -127,20 +132,22 @@ Factory pattern is a powerful design pattern that allows you to create objects w
 Strategy pattern is a behavioral design pattern that allows you to define a family of algorithms, put each of them into a separate class, and make their objects interchangeable. The pattern allows you to change the behavior of an object by changing the object's strategy.
 
 Here's a simple example of the strategy pattern in Java: Suppose you are writing a program that performs some operation on two integers. You would first define an interface that defines the operation:
-```
+```java
 public interface Operation {
     public int performOperation(int a, int b);
 }
 ```
 This interface is simply defining a method that takes two integers and returns an integer. You would then create two classes that implement this interface for each type of operation you need to perform. For example:
-```public class Addition implements Operation {
+```java
+public class Addition implements Operation {
     public int performOperation(int a, int b) {
         //1+1 = 2
         return a + b;
     }
 }
 ```
-```public class Concatenation implements Operation {
+```java
+public class Concatenation implements Operation {
     public int performOperation(int a, int b) {
         //1 cat 1 = 11
         return Integer.parseInt(Integer.toString(a) + Integer.toString(b));
@@ -151,7 +158,8 @@ In these examples, Addition performs addition on two integers, while Concatenati
 
 Finally, you would create a class that uses these operations. 
 For example:
-```public class Calculator {
+```java
+public class Calculator {
     private Operation operation;
     
     public void setOperation(Operation operation) {
@@ -172,7 +180,8 @@ Observer Pattern is a behavioral design pattern that allows one or more objects 
 
 This is example code of the observer pattern:
 
-```import java.util.ArrayList;
+```java
+import java.util.ArrayList;
 import java.util.List;
 
 interface Subject {
@@ -187,7 +196,8 @@ interface Observer {
 ```
 In this example, we have a Subject interface that defines the methods that must be implemented as a subject. The register() method is used to register an observer object. The notifyObservers() method is used to notify all registered observers. The getUpdate() method is a getter method to obtain the most recent message from a observer.
 
-```class Topic implements Subject {
+```java
+class Topic implements Subject {
     //list of observers
     private List<Observer> observers;
     //message sent to the topic
@@ -232,7 +242,8 @@ In this example, we have a Subject interface that defines the methods that must 
     }
 }
 ```
-```class TopicSubscriber implements Observer {
+```java
+class TopicSubscriber implements Observer {
     //name of the observer
     private String name;
     private Subject topic;
@@ -255,7 +266,8 @@ In the example, we have a Topic class that creates a topic that observers can su
 
 Finally, we have a main class that creates a topic and two observers: a and b. The observers are then registered to the topic. The topic then posts a message, which notifies all observers to print out the message.
 
-```public class HelloWorld { 
+```java
+public class HelloWorld { 
     public static void main(String[] args) {
         Topic topic = new Topic(); 
         Observer a = new TopicSubscriber("a", topic);
