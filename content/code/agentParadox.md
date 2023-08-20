@@ -8,7 +8,7 @@ tags:
   - Valorant
   - Python
   - MongoDB
-image: 
+image: /posts/League/valorant.jpeg
 description: "Data investigation to find easy to play agents"
 toc:
 ---
@@ -89,7 +89,7 @@ The chart above showcases the win rate difference between high and low-tier play
 
 The common reasoning? Sage's abilities are straightforward, and even if one isn't skilled in direct combat, they can still contribute significantly through her supportive capabilities, which seems very easy like Mercy in Overwatch. 
 
-Yet, the results showed the opposite of this prevailing thought. Ironically, Sage is hard because it is difficult to maximize her supporting value because it requires her to stay alive and farm ult points with kills.
+However, the data tells a different story from this widely held belief. Sage's win rate eclipses her peers in the higher tiers by 1.744%, while Neon lags behind with a decrease of -1.406%. Notably, these two agents possess deviations that are double that of their closest competitor. Ironically, Sage is hard because it is difficult to maximize her supporting value because it requires her to stay alive and farm ult points with kills.
 
 <img src="/posts/League/sage_diff.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: 30%;"/>
 
@@ -100,9 +100,12 @@ The chart predominantly clusters agents by their respective roles, with only a f
 
 <img src="/posts/League/initiator.png" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: 70%;"/>
 
-This notably underscores the intricacies of using the 'Flash' ability in Valorant. If flash is not deployed effectively during combat, it risks allies as well. The performance disparity of Flash-based agents across skill tiers reveals that proficient players employ the Flash with a tactical finesse that significantly contributes to team combat efficacy. 
+This notably underscores the intricacies of using the 'Flash' ability in Valorant. If flash is not deployed effectively during combat, it risks allies as well. The performance disparity of Flash-based agents across skill tiers reveals that proficient players employ the Flash with a tactical finesse that significantly contributes to team combat efficacy. Conversely, its misuse at low tiers can suggest unfamiliarity or even intimidation with the ability.
 
-Conversely, the data also highlights that abilities like the drone, as seen with agents like Fade and Sova, don't manifest pronounced disparities even when lower-tier players deploy them without nuanced strategies.
+Conversely, the data also highlights that agents like Fade and Sova with drones, exhibit less performance gaps. This suggests that even when players at the lower end of the skill spectrum deploy these abilities, they can do so without severely impacting their team's outcome.
+
+For newcomers, beginning with info agents like Sova could be a strategic move. This will allow them to familiarize themselves with the game's tempo and mechanics, setting a solid foundation for mastering more complex agents and abilities in the future.
+
 
 ## Conclusion
 Navigating the intricate landscape of Valorant is not a small project. We identified what could possibly cause the performance gap between low and high tiers with data analysis supported Python and MongoDB. 
