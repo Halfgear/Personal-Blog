@@ -87,11 +87,11 @@ The chart is drawn with google spread sheet and pandas library.
 
 The chart above showcases the win rate difference between high and low-tier players for various agents. The taller the bar, the better the agent's winrate in higher tiers. The two data points that stand out most prominently in the chart are Sage and Neon. If you were to ask current Valorant players which agent they would recommend to a newcomer between these two, most would likely suggest Sage. 
 
+<img src="/posts/League/sage_diff.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: 30%;"/>
+
 The common reasoning? Sage's abilities are straightforward, and even if one isn't skilled in direct combat, they can still contribute significantly through her supportive capabilities, which seems very easy like Mercy in Overwatch. 
 
 However, the data tells a different story from this widely held belief. Sage's win rate eclipses her peers in the higher tiers by 1.744%, while Neon lags behind with a decrease of -1.406%. Notably, these two agents possess deviations that are double that of their closest competitor. Ironically, Sage is hard because it is difficult to maximize her supporting value because it requires her to stay alive and farm ult points with kills.
-
-<img src="/posts/League/sage_diff.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: 30%;"/>
 
 When players are unfamiliar with the available agents, they often gravitate towards those that appear simple and user-friendly. Sage, who seems to have a straightforward and intuitive skill set, is frequently recommended to newcomers. However, my recent statistical analysis suggests that this common recommendation may not be the most beneficial for new players.
 
@@ -108,7 +108,10 @@ For newcomers, beginning with info agents like Sova could be a strategic move. T
 
 
 ## Conclusion
+
 Navigating the intricate landscape of Valorant is not a small project. We identified what could possibly cause the performance gap between low and high tiers with data analysis supported Python and MongoDB. 
+
+<img src="/posts/League/agents.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 70%; height: 70%;"/>
 
 Traditional wisdom might suggest certain agent choices, but our data reveals nuances—like Sage, seemingly beginner-friendly, yet possessing a steep learning curve. It's a testament to the depths that lie beyond initial impressions.
 
