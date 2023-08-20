@@ -95,10 +95,6 @@ Yet, the results showed the opposite of this prevailing thought. Ironically, Sag
 
 When players are unfamiliar with the available agents, they often gravitate towards those that appear simple and user-friendly. Sage, who seems to have a straightforward and intuitive skill set, is frequently recommended to newcomers. However, my recent statistical analysis suggests that this common recommendation may not be the most beneficial for new players.
 
-<img src="/posts/League/neon.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: 30%;"/>
-
-For Neon, my conviction isn't as strong as it was with Sage. Initially, I thought that Neon might be too complex for beginners. I theorize that the decrease in win rate at higher ranks may be attributed from elite player's better response to Neon's concussive skill. Well, while agents like Jett and Raze come flying in, Neon just runs in, doesn't she?
-
 ## Flash difficulties
 The chart predominantly clusters agents by their respective roles, with only a few edge cases like Neon. Notable difficulty disparity is the gap between Flash-holding Initiators and Non-flash Info Initiators.
 
@@ -107,7 +103,6 @@ The chart predominantly clusters agents by their respective roles, with only a f
 This notably underscores the intricacies of using the 'Flash' ability in Valorant. If flash is not deployed effectively during combat, it risks allies as well. The performance disparity of Flash-based agents across skill tiers reveals that proficient players employ the Flash with a tactical finesse that significantly contributes to team combat efficacy. 
 
 Conversely, the data also highlights that abilities like the drone, as seen with agents like Fade and Sova, don't manifest pronounced disparities even when lower-tier players deploy them without nuanced strategies.
-
 
 ## Conclusion
 Navigating the intricate landscape of Valorant is not a small project. We identified what could possibly cause the performance gap between low and high tiers with data analysis supported Python and MongoDB. 

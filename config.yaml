@@ -175,6 +175,7 @@ params:
     items:
       - job: "Backend Developer"
         company: "PS Analytics"
+        companySmallTitle: "lol.ps"
         companyUrl: "https://lol.ps"
         date: "Dec 2022 - present"
         info:
@@ -187,6 +188,11 @@ params:
           - Contributed to project proposal and implemented PostgreSQL and NestJS for website backend.
           - Collaborated with other developers to build an extendable functionality
 
+# Experience
+  experience2:
+    enable: true
+    # title: "Custom Name"
+    items:
       - job: "Object Oriented Design TA"
         company: "Northeastern University"
         companyUrl: "https://www.khoury.northeastern.edu"
@@ -201,7 +207,10 @@ params:
           - Instructed on various object-oriented design strategies with examples.
           - Reviewed student code submissions to provide detailed feedback
 
-
+  experience3:
+    enable: true
+    # title: "Custom Name"
+    items:
       - job: "CBRN Specialist"
         company: "Korea Army"
         companyUrl: "https://en.wikipedia.org/wiki/Republic_of_Korea_Army"
