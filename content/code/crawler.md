@@ -7,7 +7,7 @@ author: "HwiJoon Lee"
 tags:
   - Valorant
   - Python
-  - MongoDB
+  - MongoDB 
 image: /posts/League/valorant.jpeg
 toc:
 ---
