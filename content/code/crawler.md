@@ -146,3 +146,7 @@ Instead of allowing these errors to halt my crawler, I implemented mechanisms to
 ![MongoDB](/posts/Valorant/MongoDB.png)
 
 By harnessing the power of asynchronous programming, fine-tuning data storage methods, and implementing robust error-handling mechanisms, I was able to optimize my data crawler. After reading API documentation multiple times, I was able to identify and extract the precise data I needed. This journey reminded me about the importance of perseverance, adaptability, and innovation in the face of technological hurdles. As developers, it's these trials that hone my skills, pushing me not just to build, but to build better.
+
+![MongoDB](/posts/Valorant/kafka.jpg)
+
+This was just a first step of the project. Upon completing the website backend support using NestJS with mocking data for front end developers to use, I intend to further advance the crawler system. A planned integration with Kafka will compartmentalize the crawler and statistical calculation components, ensuring that our infrastructure remains robust even if potential failures occur in our AWS machines. Furthermore, with a scheduled cronjobs, I will synchronize our data with PostgreSQL to finialize the backend support for our website.

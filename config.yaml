@@ -101,10 +101,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Welcome! my name is"
     title: "HwiJoon Lee"
-    subtitle: "Backend developer (Java/Nodejs)"
-    content: "Passionate Computer Science Student"
+    subtitle: "Backend developer"
+    content: "On a passtionate quest to make games captivating and accessible for new players. Dive in with me as we explore my insights into gaming and backend development."
     image: /me/AI.jpg
 
     # roundImage: true # Make hero image circular | default false
@@ -225,7 +225,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Image Processor
