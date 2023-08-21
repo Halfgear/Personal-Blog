@@ -24,17 +24,6 @@ markup:
 
 Menus:
   main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
-    # - identifier: gallery
-    #   name: Gallery
-    #   title: Blog Photos
-    #   url: /gallery
-    #   weight: 2
-    # Dropdown menu
     - identifier: blog
       title: interests
       name: Interests
@@ -42,7 +31,7 @@ Menus:
       # parent: dropdown
       weight: 1
     - identifier: code
-      title: Code
+      title: code
       name: Code
       url: /code
       # parent: dropdown
