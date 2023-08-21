@@ -286,10 +286,10 @@ params:
 
   footer:
     recentPosts:
-      path: "dev"
+      path: "code"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
 
 
