@@ -216,6 +216,14 @@ params:
         GPA: "3.59 out of 4.0"
         content: |-
           4th year student. Two gap years for Military service.
+      - title: "High School"
+        school:
+          name: "Subiaco Academy"
+          url: "https://www.subiacoacademy.us/"
+        date: "Aug 2014 - May 2018"
+        GPA: "4.0 out of 4.0"
+        content: |-
+          
   # Achievements
   achievements:
     enable: false
