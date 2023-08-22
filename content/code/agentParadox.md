@@ -1,5 +1,5 @@
 ---
-title: "The Paradox of Agent difficulty"
+title: "Agent difficulty Paradox"
 date: 2023-08-16
 draft: false
 github_link: "https://github.com/Halfgear"

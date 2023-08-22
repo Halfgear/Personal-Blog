@@ -1,5 +1,5 @@
 ---
-title: "Building a Match History Crawler"
+title: "Building a Match Crawler"
 date: 2023-08-20
 draft: false
 github_link: "https://github.com/Halfgear"
