@@ -141,7 +141,7 @@ Even with optimized data fetching and storage, a crawler still had issues. Durin
 
 Instead of allowing these errors to halt my crawler, I implemented mechanisms to detect and handle them accordingly. From waiting out a rate limit with **`asyncio.sleep()`** to retrying requests in the face of server errors, my crawler became resilient. Each error-handling iteration made the system more robust, ensuring continuous data retrieval despite temporary setbacks if I have encountered them before.
 
-### Conclusion
+## Improvements
 
 ![MongoDB](/posts/Valorant/MongoDB.png)
 
@@ -149,4 +149,10 @@ By harnessing the power of asynchronous programming, fine-tuning data storage me
 
 ![MongoDB](/posts/Valorant/kafka.jpg)
 
-This was just a first step of the project. Upon completing the website backend support using NestJS with mocking data for front end developers to use, I intend to further advance the crawler system. A planned integration with Kafka will compartmentalize the crawler and statistical calculation components, ensuring that our infrastructure remains robust even if potential failures occur in our AWS machines. Furthermore, with a scheduled cronjobs, I will synchronize our data with PostgreSQL to finialize the backend support for our website.
+Upon completing the website backend support using NestJS with mocked data for front end developers, my next goal is to enhance the efficiency and reliability of the crawler system. To achieve this, I intend to integrate with Kafka, which will effectively compartmentalize the crawler and statistical calculation components. This design choice ensures that the infrastructure remains robust and resistant to potential failures in the AWS machines.
+
+![MongoDB](/posts/Valorant/MongoDB.jpg)
+
+To further refine our statistical calculation mechanism, I plan to establish a separate observer database. This database will utilize the match ID as its MongoDB ID, with "calculations" as keys. The associated values, represented as booleans, will indicate whether the particular calculation has been completed or not. If the observer database value for a specific match ID is set to "false", our stats calculations module will process the corresponding data. 
+
+This modular approach not only enables concurrent data processing but also adds an extra layer of reliability. Even if one of our AWS machines responsible for calculations encounters a failure, the overall process will continue uninterrupted.
