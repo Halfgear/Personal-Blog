@@ -149,10 +149,10 @@ By harnessing the power of asynchronous programming, fine-tuning data storage me
 
 ![MongoDB](/posts/Valorant/kafka.jpg)
 
-Upon completing the website backend support using NestJS with mocked data for front end developers, my next goal is to enhance the efficiency and reliability of the crawler system. To achieve this, I intend to integrate with Kafka, which will effectively compartmentalize the crawler and statistical calculation components. This design choice ensures that the infrastructure remains robust and resistant to potential failures in the AWS machines.
+Upon completing the website backend support using NestJS with mocked data for front end developers, our team's next goal is to enhance the efficiency and reliability of the crawler system. To achieve this, we intend to integrate with Kafka, which will effectively compartmentalize the crawler and statistical calculation components. This design choice ensures that the infrastructure remains robust and resistant to potential failures in the AWS machines.
 
-![MongoDB](/posts/Valorant/MongoDB.jpg)
+![MongoDB](/posts/Valorant/MongoStruct.png)
 
-To further refine our statistical calculation mechanism, I plan to establish a separate observer database. This database will utilize the match ID as its MongoDB ID, with "calculations" as keys. The associated values, represented as booleans, will indicate whether the particular calculation has been completed or not. If the observer database value for a specific match ID is set to "false", our stats calculations module will process the corresponding data. 
+To further refine our statistical calculation mechanism, we plan to establish a separate observer database. This database will utilize the match ID as its MongoDB ID, with "calculations" as keys. The associated values, represented as booleans, will indicate whether the particular calculation has been completed or not. If the observer database value for a specific match ID is set to "false", our stats calculations module will process the corresponding data. 
 
 This modular approach not only enables concurrent data processing but also adds an extra layer of reliability. Even if one of our AWS machines responsible for calculations encounters a failure, the overall process will continue uninterrupted.

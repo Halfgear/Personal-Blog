@@ -162,8 +162,8 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          - Developing new Valorant data analysis website using AWS, Kubernetes, Python, and MongoDB.
-          - Contributed to project proposal and implemented PostgreSQL and NestJS for website backend.
+          - Developing new Valorant data analysis website using NestJS, MongoDB, and PostgreSQL.
+          - Contributed to project proposal and analyzed data with game insights using Python.
           - Collaborated with other developers to build an extendable functionality
 
 # Experience
