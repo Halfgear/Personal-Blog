@@ -9,6 +9,7 @@ tags:
   - Python
   - MongoDB 
 image: /posts/League/valorant.jpeg
+description: "Journey to build a robust Match Crawler"
 toc:
 ---
 ## Introduction
