@@ -131,13 +131,13 @@ params:
     title: "About Me"
     image: "/me/me.jpg"
     content: |-
-      I switched my major from chemistry to computer science, and it has been one of the best decisions I've ever made.
-      Although I may have started my journey a little later than some of my peers, 
-      I've discovered all the amazing things this field has to offer.
+      I want to become a developer who not only excels in coding but also understands the nuanced needs of clients. 
+
+      Drawing from my passion as a gamer, I aim to engineer my products that ease the onboarding experience for new players. 
       
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with:"
+      title: "Related Skills"
       items:
         - "Java"
         - "Python"
@@ -162,7 +162,7 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          - Developing new Valorant data analysis website using NestJS, MongoDB, and PostgreSQL.
+          - Structured backend environment for a new Valorant data analysis website using NestJS, MongoDB, and PostgreSQL.
           - Contributed to project proposal and analyzed data with game insights using Python.
           - Collaborated with other developers to build an extendable functionality
 
@@ -174,7 +174,7 @@ params:
       - job: "Object Oriented Design TA"
         company: "Northeastern University"
         companyUrl: "https://www.khoury.northeastern.edu"
-        date: "Jan 2023 - present"
+        date: "Jan 2023 - May 2023"
         info:
           enable: false
         featuredLink:
@@ -213,7 +213,7 @@ params:
           name: "Northeastern University"
           url: "https://www.northeastern.edu"
         date: "Aug 2018 - Dec 2024"
-        GPA: "3.59 out of 4.0"
+        GPA: "3.6 out of 4.0"
         content: |-
           4th year student. Two gap years for Military service.
       - title: "High School"
@@ -268,7 +268,7 @@ params:
       enable: true # `contact.email` value will be ignored
       formId: xayzpnnv # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
       emailCaption: "Enter your email address"
-      messageCaption: "Enter your message here"
+      messageCaption: "Message"
 
   footer:
     recentPosts:
