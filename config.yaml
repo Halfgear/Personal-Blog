@@ -155,16 +155,17 @@ params:
         company: "PS Analytics"
         companySmallTitle: "lol.ps"
         companyUrl: "https://lol.ps"
-        date: "Dec 2022 - present"
+        date: "July 2023 - present"
         info:
           enable: false
         featuredLink:
           enable: false
           url: "https://example.com"
         content: |
-          - Structured backend environment for a new Valorant data analysis website using NestJS, MongoDB, and PostgreSQL.
-          - Contributed to project proposal and analyzed data with game insights using Python.
-          - Collaborated with other developers to build an extendable functionality
+          - Contributed to project proposal by analyzing the needs of new players and intuitive learning pathways
+          - Structured backend environment using NestJS, MongoDB, and PostgreSQL
+          - Documented inquiries addressed to the CTO and backend architecture in a wiki for future team onboarding.
+
 
 # Experience
   experience2:
@@ -178,11 +179,11 @@ params:
         info:
           enable: false
         featuredLink:
-          enable: false
-          url: "https://example.com"
+          enable: true
+          url: "https://jooncode.com/code/ood/"
         content: |
           - Facilitated student's understanding of readable and maintainable code 
-          - Instructed on various object-oriented design strategies with examples.
+          - Instructed on various design strategies with examples.
           - Reviewed student code submissions to provide detailed feedback
 
   experience3:
@@ -199,8 +200,8 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          - Operated chemical reconnaissance equipment.
-          - Participated in a national wide operation for the ROK-US Combined Forces Command.
+          - Operated and maintained chemical reconnaissance equipments.
+          - Recruited for a nationwide operation with the ROK-US Combined Forces Command 
 
   # Education
   education:
