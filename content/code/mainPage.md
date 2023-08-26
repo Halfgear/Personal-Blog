@@ -6,7 +6,7 @@ author: "HwiJoon Lee"
 tags:
   - Story
   - Valorant
-image: /posts/Valorant/mainPage.png
+image: /posts/Valorant/mainPage.jpeg
 description: "The Analysis and Story Behind My Valorant Idea Proposal"
 toc:
 ---
@@ -23,7 +23,7 @@ Each agent possesses distinct strengths and vulnerabilities that can deeply infl
 
 Consider the map "Bind", characterized by its teleports and narrow rooms with short corners. This map design gives an benefits to Raze. Her grenades and drones are perfect tools to scout these corners, ensuring safety for her as she enters sites. Conversely, while Jett might lack abilities tailored for corner scouting in "Bind" although her agility compensates the scouting ability. Her swift movements and dashes provide her with an advantage in other maps that emphasize quick maneuvers and agile gameplay.
 
-![razeJett](/posts/Valorant/razeJett.png)
+![razeJett](/posts/Valorant/razeJett.jpeg)
 
 Learning Valorant is more than just mastering agent abilities or perfecting combat mechanics. It's about recognizing the intricate interplay between agents, maps, and team strategies. Each map, with unique architecture of Valorant, naturally complements certain agents while challenging others. This depth is what beginners need to understand.
 
@@ -31,7 +31,7 @@ Learning Valorant is more than just mastering agent abilities or perfecting comb
 
 This is where our website's main page feature becomes invaluable. By guiding players on which agents fare best on specific maps, we're essentially equipping them with a game plan even before the match begins They no longer approach a game blindfolded, but with a strategic framework informed by data-driven insights from our platform.
 
-![mainPage](/posts/Valorant/mainPage.png)
+![mainPage](/posts/Valorant/mainPage.jpeg)
 
 Thus, our website doesn't just offer information; it offers a foundation upon which players can build their in-game strategies intuitively. And as they grow more familiar with these agent-map dynamics, they naturally begin to experiment, adapt, and eventually master the tactical depth that Valorant offers.
 

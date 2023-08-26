@@ -6,7 +6,7 @@ author: "HwiJoon Lee"
 tags:
   - Story
   - Valorant
-image: /posts/League/meAtRiot.png
+image: /posts/League/meAtRiot.jpeg
 description: "Data-driven backend dev story with gamer insights"
 toc:
 ---
@@ -36,7 +36,7 @@ Building on the inspiration, I needed the right developers and team to bring my 
 
 As a gamer and e-sports fan, I've experienced firsthand the thrill, strategy, and camaraderie games can bring. I genuinely hope more people come to appreciate and enjoy what games can offer.
 
-![me](/posts/League/meAtT1.png)
+![me](/posts/League/meAtT1.jpeg)
 
 Driven by the passion, I refine my backend development skills to enhance the website development at my current internship. Our primary goal is to design a platform that serves as a bridge, seamlessly connecting newcomers with the seasoned players, fostering understanding and shared joy.
 
