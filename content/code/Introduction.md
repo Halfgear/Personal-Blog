@@ -10,7 +10,7 @@ image: /posts/League/meAtRiot.png
 description: "Data-driven backend dev story with gamer insights"
 toc:
 ---
-## My Experience with Riot Games
+## My Experience with Riot
 
 For the past 10 years, Riot Games has been the cornerstone of my gaming experience. I've always cherished those competitive moments, playing alongside friends to clutch those hard-earned victories in League of Legends and Valorant.
 
@@ -48,7 +48,7 @@ Consider the map "Bind", characterized by its teleports and narrow rooms with sh
 
 Learning Valorant is more than just mastering agent abilities or perfecting combat mechanics. It's about recognizing the intricate interplay between agents, maps, and team strategies. Each map, with unique architecture of Valorant, naturally complements certain agents while challenging others. This depth is what beginners need to understand.
 
-## What should we do for users?
+### What should we do for users?
 
 ![mainPage](/posts/Valorant/mainPage.png)
 
