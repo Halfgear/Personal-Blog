@@ -151,7 +151,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Backend Developer"
+      - job: "Backend Developer/Project Manager"
         company: "PS Analytics"
         companySmallTitle: "lol.ps"
         companyUrl: "https://lol.ps"
@@ -162,10 +162,10 @@ params:
           enable: true
           url: "https://jooncode.com/code/introduction/"
         content: |
-          - Contributed to project proposal by analyzing the needs of new players and intuitive learning pathways
-          - Structured backend environment using NestJS, MongoDB, and PostgreSQL
-          - Documented inquiries addressed to the CTO and backend architecture in a wiki for future team onboarding.
-
+          - Established the backend infrastructure for a Valorant data analysis website using NestJS, MongoDB, PostgreSQL
+          - Designed a data crawler and formulated stat calculations with Python
+          - Assessed new player needs and translated them into the development strategies
+          - Documented inquiries addressed to the CTO and backend architecture in a wiki for future team onboarding
 
 # Experience
   experience2:
