@@ -140,6 +140,47 @@ Even with optimized data fetching and storage, a crawler still had issues. Durin
 
 ### Comprehensive error handling
 
+```python
+async def aiohttp_save_match_info_to_db(session, match_id, retry_num=0):
+    url = f"https://kr.api.riotgames.com/val/match/v1/matches/{match_id}"
+    try:
+        async with session.get(url, headers=request_header) as response:   
+            status = response.status
+
+            # ok response
+            if status == 200:
+                content = await response.json()
+                if(content["matchInfo"]["isCompleted"]):
+                    save_match_info_to_db(content)
+                return status
+
+            # Handle Rate limit exceeded
+            elif status == 429:
+                await asyncio.sleep(int(response.headers['Retry-After']))
+                retry_num += 1
+                return await aiohttp_save_match_info_to_db(session, match_id, retry_num)
+
+            # Riot Service error
+            elif status == 503:
+                retry_num += 1
+                return await aiohttp_save_match_info_to_db(session, match_id, retry_num)
+
+            elif retry_num == RETRY_LIMIT:
+                print('Retry limit exceeded', response.status_code, response.headers)
+                raise Exception("Retry limit exceeded")
+
+            else:
+                print('Unhandled error', response.status_code, response.headers)
+                raise Exception(response.status_code)
+
+    # This handles unknown server error by simply just retrying it.
+    except aiohttp.ClientOSError:
+        print(f"Aiohttp server Error with {match_id}")
+        retry_num += 1
+        await asyncio.sleep(5)
+        return await aiohttp_save_match_info_to_db(session, match_id, retry_num)
+```
+
 Instead of allowing these errors to halt my crawler, I implemented mechanisms to detect and handle them accordingly. From waiting out a rate limit with **`asyncio.sleep()`** to retrying requests in the face of server errors, my crawler became resilient. Each error-handling iteration made the system more robust, ensuring continuous data retrieval despite temporary setbacks if I have encountered them before.
 
 ## Improvements
