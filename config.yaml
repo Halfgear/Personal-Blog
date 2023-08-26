@@ -159,8 +159,8 @@ params:
         info:
           enable: false
         featuredLink:
-          enable: false
-          url: "https://example.com"
+          enable: true
+          url: "https://jooncode.com/code/introduction/"
         content: |
           - Contributed to project proposal by analyzing the needs of new players and intuitive learning pathways
           - Structured backend environment using NestJS, MongoDB, and PostgreSQL
