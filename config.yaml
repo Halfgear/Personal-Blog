@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 6
+Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 googleAnalytics: G-6Z99Z4T0L0
@@ -112,7 +112,7 @@ params:
     secondButton:
       enable: true
       name: "Blog"
-      url: "https://jooncode.com/code/"
+      url: "https://jooncode.com/blog/"
       download: true
       newPage: true
 

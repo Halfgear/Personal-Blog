@@ -28,7 +28,7 @@
                     </div>
                     <div class="col-auto px-0 h-100">
                         {{ if .Site.Params.hero.secondButton.enable }}
-                        <a href="{{ .Site.Params.hero.secondButton.url }}" class="btn" {{ cond .Site.Params.hero.secondButton.download "download" "" }}
+                        <a href="{{ .Site.Params.hero.secondButton.url }}" class="btn"
                            {{ if .Site.Params.hero.secondButton.newPage | default true }}
                            target="_blank"
                            {{ end }}>
