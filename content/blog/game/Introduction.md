@@ -6,7 +6,7 @@ author: "HwiJoon Lee"
 tags:
   - Story
   - Valorant
-image: /posts/League/meAtRiot.jpeg
+image: /posts/League/meWithRiot.jpeg
 description: "Data-driven backend dev story with gamer insights"
 toc:
 ---
@@ -28,7 +28,7 @@ While watching steamers from Youtube and Twitch, I often observed experienced pl
 
 As I do further research about the tool, I encountered numerous Valorant sites like tracker.gg. These sites simply showcased past match histories and basic stats such as headshot rates. However, many of these platforms were geared towards intermediate to hardcore players looking to enhance their skill. A glaring gap existed for beginners, and I aimed to fill it by offering insights that extended beyond mere statistics and genuinely catered to newcomers, guiding them through their new journey into the game.
 
-![me](/posts/Valorant/ps.png)
+![me](/posts/Valorant/ps.jpeg)
 
 Building on the inspiration, I needed the right developers and team to bring my vision to real life. I reached out to a company I had previously collaborated with on a [***side project***](https://jooncode.com/code/nestdiscordbot/) during semester. They operated a League match history website called lol.ps and had established a reputation for data analysis and aimed at enriching every gamer's experience. Given their expertise and shared ethos, I felt they were the perfect partners to help realize my idea. Consequently, I began my internship with them, diving deep into roles as a backend developer and product manager.
 

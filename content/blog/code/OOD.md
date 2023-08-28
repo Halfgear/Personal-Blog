@@ -5,13 +5,13 @@ draft: false
 author: "HwiJoon Lee"
 tags:
   - Object Oriented Design
-image: /posts/OOD/java.png
+image: /posts/OOD/java.jpeg
 description: "Explanation of Design Patterns for beginners"
 ---
 ## Introduction
 
 Design patterns are essential in development as they provide a structured approach to solve common problems. Object-oriented design patterns are the most widely used patterns, and they form the backbone of most software applications. 
-<img src="/posts/OOD/mypic.PNG" style="display: block; margin-left: auto; margin-right: auto; width: 80%; height: 80%;"/>
+<img src="/posts/OOD/mypic.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 80%; height: 80%;"/>
 In this post, I'll share my experience as a OOD TA and insights on how these patterns work and provide you with some sample code to help you understand them better. We will explore Singleton, Factory, Strategy, and Observer patterns, and how these patterns can be used to improve the quality of your designs and provide you with code samples to illustrate their implementation.
 
 ## Singleton Pattern

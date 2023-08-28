@@ -19,7 +19,7 @@ Valorant's unique appeal is rooted in its foundational design philosophy that pr
 
 Each agent possesses distinct strengths and vulnerabilities that can deeply influence gameplay. To amplify this dynamic, maps are designed to either bolster or counteract an agent's abilities. For example, some maps might cater to agents that are adept at obtaining critical information, while others might be tailored for executing planned strategies.
 
-![bind](/posts/Valorant/bind.jpeg)
+![bind](/posts/Valorant/bindOver.jpeg)
 
 Consider the map "Bind", characterized by its teleports and narrow rooms with short corners. This map design gives an benefits to Raze over Jett. Her grenades and drones are perfect tools to scout these corners, ensuring safety for her as she enters sites. Conversely, while Jett lacks abilities tailored for corner scouting in Bind, her agility can outperform Raze in different maps. Her swift movements and dashes provide her with an advantage that emphasize quick maneuvers and agile gameplay.
 

@@ -129,16 +129,19 @@ params:
     title: "About Me"
     image: "/me/me.jpg"
     content: |-
-      I want to become a developer who not only excels in coding but also understands the nuanced needs of users. 
+      As a developer, I want to excel not only in coding but also in understanding the nuanced needs of users. 
+      
+      My focus is especially on enhancing the onboarding experience for newcomers. 
+      
+      I build products that assist new players in immersing themselves quickly while elevating the overall gaming experience.
 
-      Drawing from my passion as a gamer, I aim to engineer my products that ease the onboarding experience for new players. 
       
     skills:
       enable: true
       title: "Related Skills"
       items:
-        - "Java"
         - "Python"
+        - "C++"
         - "TypeScript"
         - "Docker"
         - "PostgresSQL"
@@ -158,7 +161,7 @@ params:
           enable: false
         featuredLink:
           enable: true
-          url: "https://jooncode.com/code/introduction/"
+          url: "https://jooncode.com/blog/game/introduction/"
         content: |
           - Established the backend infrastructure for a Valorant data analysis website using NestJS, MongoDB, PostgreSQL
           - Designed a data crawler and formulated stat calculations with Python
@@ -178,7 +181,7 @@ params:
           enable: false
         featuredLink:
           enable: true
-          url: "https://jooncode.com/code/ood/"
+          url: "https://jooncode.com/blog/code/ood/"
         content: |
           - Facilitated student's understanding of readable and maintainable code 
           - Instructed on various design strategies with examples.
