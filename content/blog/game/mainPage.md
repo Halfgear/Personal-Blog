@@ -6,7 +6,7 @@ author: "HwiJoon Lee"
 tags:
   - Story
   - Valorant
-image: /posts/Valorant/mainPage.jpeg
+image: /posts/Valorant/mainPageFull.jpeg
 description: "The Analysis and Story Behind My Valorant Idea Proposal"
 toc:
 ---
