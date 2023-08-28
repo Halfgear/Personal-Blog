@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+Paginate: 6
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 googleAnalytics: G-6Z99Z4T0L0
@@ -25,17 +25,11 @@ markup:
 Menus:
   main:
     - identifier: blog
-      title: interests
-      name: Interests
-      url: /blogs
+      title: blog
+      name: Blog
+      url: /blog
       # parent: dropdown
       weight: 1
-    - identifier: code
-      title: code
-      name: Code
-      url: /code
-      # parent: dropdown
-      weight: 2
 
 
 params:
@@ -114,16 +108,20 @@ params:
       url: "https://docs.google.com/document/d/1aIfynNS2C6CA2gZL8I3l_RjVEDyIFYHr/edit?usp=sharing&ouid=118185476807190519222&rtpof=true&sd=true"
       download: true
       newPage: true
+
+    secondButton:
+      enable: true
+      name: "Blog"
+      url: "https://jooncode.com/code/"
+      download: true
+      newPage: true
+
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/Halfgear
-        - icon: fab fa-instagram
-          url: https://www.instagram.com/joonlh/
         - icon: fab fa-linkedin
           url: "https://www.linkedin.com/in/lee-hwi-joon-3004401a4"
-        - icon: fab fa-discord
-          url: "https://discordapp.com/users/287802139781103616"
 
   # About
   about:
@@ -273,7 +271,7 @@ params:
 
   footer:
     recentPosts:
-      path: "code"
+      path: "blog"
       count: 3
       title: Recent Posts
       enable: true
@@ -302,3 +300,5 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
+
+  

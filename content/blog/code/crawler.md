@@ -8,7 +8,7 @@ tags:
   - Valorant
   - Python
   - MongoDB 
-image: /posts/League/valorant.jpeg
+image: /posts/Valorant/api.jpeg
 description: "Journey to build a robust Match Crawler"
 toc:
 ---
