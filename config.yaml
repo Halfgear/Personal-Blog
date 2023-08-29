@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+Paginate: 6
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 googleAnalytics: G-6Z99Z4T0L0
@@ -98,7 +98,7 @@ params:
     intro: "Welcome! my name is"
     title: "HwiJoon Lee"
     subtitle: "Backend developer"
-    content: "On a passtionate quest to make games captivating and accessible for new players. Join me as we explore my insights into backend development."
+    content: "I want to make games captivating and accessible for new players. Join me as we explore my insights into backend development!"
     image: /me/AI.jpg
 
     # roundImage: true # Make hero image circular | default false
@@ -129,11 +129,9 @@ params:
     title: "About Me"
     image: "/me/me.jpg"
     content: |-
-      As a developer, I want to excel not only in coding but also in understanding the nuanced needs of users. 
-      
-      My focus is especially on enhancing the onboarding experience for newcomers. 
-      
-      I build products that assist new players in immersing themselves quickly while elevating the overall gaming experience.
+      I am a developer who wants to excel, not only in coding, but in understanding the particular needs of users. My focus is on streamlining user experience. 
+    
+      I am currently developing an education product to assist new Valorant players in learning gameplay and improving overall. 
 
       
     skills:
@@ -156,17 +154,17 @@ params:
         company: "PS Analytics"
         companySmallTitle: "lol.ps"
         companyUrl: "https://lol.ps"
-        date: "July 2023 - present"
+        date: "Nov 2022 - present"
         info:
           enable: false
         featuredLink:
           enable: true
           url: "https://jooncode.com/blog/game/introduction/"
         content: |
-          - Established the backend infrastructure for a Valorant data analysis website using NestJS, MongoDB, PostgreSQL
-          - Designed a data crawler and formulated stat calculations with Python
+          - Established the backend infrastructure for a Valorant data analytic website using NestJS, MongoDB, PostgreSQL
+          - Designed a data crawler and formulated statistics calculations with Python
           - Assessed new player needs and translated them into the development strategies
-          - Documented inquiries addressed to the CTO and backend architecture in a wiki for future team onboarding
+          - Documented backend structure and inquiries addressed to the CTO in a wiki for future team onboarding
 
 # Experience
   experience2:
@@ -182,17 +180,17 @@ params:
         featuredLink:
           enable: true
           url: "https://jooncode.com/blog/code/ood/"
-        content: |
-          - Facilitated student's understanding of readable and maintainable code 
+        content: | 
           - Instructed on various design strategies with examples.
           - Reviewed student code submissions to provide detailed feedback
+          - Facilitated student's understanding of readable and maintainable code
 
   experience3:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "CBRN Specialist"
-        company: "Korea Army"
+      - job: "Hazardous Materials Specialist"
+        company: "Republic of Korea Army"
         companyUrl: "https://en.wikipedia.org/wiki/Republic_of_Korea_Army"
         date: "Sep 2020 - Mar 2022"
         info:
@@ -218,13 +216,6 @@ params:
         GPA: "3.6 out of 4.0"
         content: |-
           4th year student. Two gap years for Military service.
-      - title: "High School"
-        school:
-          name: "Subiaco Academy"
-          url: "https://www.subiacoacademy.us/"
-        date: "Aug 2014 - May 2018"
-        GPA: "4.0 out of 4.0"
-        content: |-
           
   # Achievements
   achievements:

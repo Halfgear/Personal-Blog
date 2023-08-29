@@ -16,13 +16,13 @@ For the past 10 years, Riot Games has been the cornerstone of my gaming experien
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/I0YZTNQo8d7uxADaC4" width="100%" height="100%" style="position:absolute" frameBorder="0"></iframe></div><p>
 
-My enthusiasm was so contagious that I naturally wanted more friends to join the fray. Yet, the highly competitive nature of these games made it challenging for me as an advanced player to guide them. I often found it tough to step into their shoes, to see what they were seeing and understand what they didn't yet know.
+My enthusiasm was so contagious that I naturally wanted more friends to join the lobby. Yet, the highly competitive nature of these games made it challenging for me as an advanced player to guide them. I often found it tough to step into their shoes, to see what they were seeing and understand what they didn't yet know.
 
 ### How this project started
 
 While watching steamers from Youtube and Twitch, I often observed experienced players referencing tutorial websites for board games as they mentored newcomers. This practical approach allowed to east the learning curve and fostered better in-game synergy between old and new players. It made me wonder: What if there was a similar platform for  Valorant? Such a tool would ensure a smoother integration into matches, even when paired with seasoned players.
 
-<img src="/posts/League/matchHistory.png" style="display: block; margin-left: auto; margin-right: auto; width: 97%; height: 97%;"/>
+<img src="/posts/Valorant/matchHistory.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 97%; height: 97%;"/>
 
 As I do further research about the tool, I encountered numerous Valorant sites like tracker.gg. These sites simply showcased past match histories and basic stats such as headshot rates. However, many of these platforms were geared towards intermediate to hardcore players looking to enhance their skill. A glaring gap existed for beginners, and I aimed to fill it by offering insights that extended beyond mere statistics and genuinely catered to newcomers, guiding them through their new journey into the game.
 
