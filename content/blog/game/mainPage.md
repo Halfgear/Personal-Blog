@@ -6,7 +6,7 @@ author: "HwiJoon Lee"
 tags:
   - Story
   - Valorant
-image: /posts/Valorant/mainPageFull.jpeg
+image: /posts/Valorant/mainPageFullReduced.jpeg
 description: "The Analysis and Story Behind My Valorant Idea Proposal"
 toc:
 ---
@@ -15,7 +15,7 @@ toc:
 
 Valorant's unique appeal is rooted in its foundational design philosophy that promotes a layered gaming experience. Players are incentivized when they successfully gather information, strategize their moves, and execute these strategies. This progression is termed the "tactical cycle," and following it often leads to victories. The developers have thoughtfully crafted both maps and agents to further reinforce this cycle.
 
-![tacticalCycle](/posts/Valorant/tacticalCycle.png)
+![tacticalCycle](/posts/Valorant/tacticalCycle.jpeg)
 
 Each agent possesses distinct strengths and vulnerabilities that can deeply influence gameplay. To amplify this dynamic, maps are designed to either bolster or counteract an agent's abilities. For example, some maps might cater to agents that are adept at obtaining critical information, while others might be tailored for executing planned strategies.
 
