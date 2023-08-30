@@ -98,7 +98,7 @@ params:
     intro: "Welcome! my name is"
     title: "HwiJoon Lee"
     subtitle: "Backend developer"
-    content: "I want to make games captivating and accessible for new players. Join me as we explore my insights into backend development!"
+    content: "I want to make games more captivating and accessible for new players. Join me as we explore my insights into backend development!"
     image: /me/AI.jpg
 
     # roundImage: true # Make hero image circular | default false
