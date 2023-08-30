@@ -12,6 +12,8 @@ toc:
 ---
 ## My Experience with Riot
 
+<img src="/posts/League/leaguePlay.gif" style="display: block; margin-right: auto; width: 90%; height: 90%;"/>
+
 For the past 10 years, Riot Games has been the cornerstone of my gaming experience. I've always enjoyed those competitive moments, playing alongside friends to clutch those hard-earned victories in League of Legends and Valorant.
 
 <img src="/posts/Valorant/play.gif" style="display: block; margin-right: auto; width: 90%; height: 90%;"/>
