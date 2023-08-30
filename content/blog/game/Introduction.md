@@ -12,11 +12,11 @@ toc:
 ---
 ## My Experience with Riot
 
-For the past 10 years, Riot Games has been the cornerstone of my gaming experience. I've always cherished those competitive moments, playing alongside friends to clutch those hard-earned victories in League of Legends and Valorant.
+For the past 10 years, Riot Games has been the cornerstone of my gaming experience. I've always enjoyed those competitive moments, playing alongside friends to clutch those hard-earned victories in League of Legends and Valorant.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/I0YZTNQo8d7uxADaC4" width="100%" height="100%" style="position:absolute" frameBorder="0"></iframe></div><p>
+<img src="/posts/Valorant/play.gif" style="display: block; margin-right: auto; width: 90%; height: 90%;"/>
 
-My enthusiasm was so contagious that I naturally wanted more friends to join the lobby. Yet, the highly competitive nature of these games made it challenging for me as an advanced player to guide them. I often found it tough to step into their shoes, to see what they were seeing and understand what they didn't yet know.
+I was enthusiastic enough to want more friends to join my lobby. Yet, the highly competitive nature of Riot games made it challenging for me as an advanced player to guide them. I often found it tough to step into their shoes, to see what they were seeing and understand what they didn't yet know.
 
 ### How this project started
 
