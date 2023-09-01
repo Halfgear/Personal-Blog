@@ -24,7 +24,7 @@ While watching steamers from Youtube and Twitch, I often observed experienced pl
 
 <img src="/posts/Valorant/matchHistory.jpeg" style="display: block; margin-left: auto; margin-right: auto; width: 97%; height: 97%;"/>
 
-As I do further research about the tool, I encountered numerous Valorant sites like tracker.gg. These sites simply showcased past match histories and basic stats such as headshot rates. However, many of these platforms were geared towards intermediate to hardcore players looking to enhance their skill. A glaring gap existed for beginners, and I aimed to fill it by offering insights that extended beyond mere statistics and genuinely catered to newcomers, guiding them through their new journey into the game.
+As I do further research about the tool, I encountered numerous Valorant sites like tracker.gg. These sites simply showcased past match histories and basic stats such as headshot rates. However, many of these platforms were geared towards intermediate to hardcore players looking to enhance their skill. A huge gap existed for beginners, and I aimed to fill it by offering insights that extended beyond mere statistics and presneted for newcomers, guiding them through their new journey into the game.
 
 ![me](/posts/Valorant/ps.jpeg)
 
