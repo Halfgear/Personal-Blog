@@ -1,6 +1,6 @@
 ---
 title: "Agent difficulty Paradox"
-date: 2023-08-16
+date: 2023-07-16
 draft: false
 github_link: "https://github.com/Halfgear"
 author: "HwiJoon Lee"

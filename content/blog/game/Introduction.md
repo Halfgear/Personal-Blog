@@ -1,6 +1,6 @@
 ---
 title: "Valorant Website Project"
-date: 2023-08-25
+date: 2023-08-15
 draft: false
 author: "HwiJoon Lee"
 tags:

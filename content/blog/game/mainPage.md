@@ -1,6 +1,6 @@
 ---
 title: "Crafting the Main Page"
-date: 2023-08-25
+date: 2023-08-19
 draft: false
 author: "HwiJoon Lee"
 tags:
