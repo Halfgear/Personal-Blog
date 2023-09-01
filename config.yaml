@@ -97,7 +97,7 @@ params:
     enable: true
     intro: "Welcome! my name is"
     title: "HwiJoon Lee"
-    subtitle: "Backend developer"
+    subtitle: "Software developer"
     content: "I want to make games more captivating and accessible for new players. Join me as we explore my insights into backend development!"
     image: /me/AI.jpg
 
@@ -150,7 +150,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Backend Developer/Project Manager"
+      - job: "Software Developer"
         company: "PS Analytics"
         companySmallTitle: "lol.ps"
         companyUrl: "https://lol.ps"

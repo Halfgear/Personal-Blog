@@ -8,7 +8,7 @@ tags:
   - Valorant
   - Python
   - MongoDB 
-image: /posts/Valorant/api.jpeg
+image: /posts/Dev/api.jpeg
 description: "Journey to build a robust Match Crawler"
 toc:
 ---
@@ -26,7 +26,7 @@ A critical limitation with Riot games data crawling is often the rate to retriev
 
 By using **`aiohttp`**  , asynchronous HTTP client/server framework, I was able to send multiple requests concurrently. This approach was similar to having multiple data crawlers working simultaneously to call match info API. This dramatically increased the amount of data I could retrieve within my request limits. I was able to confirm it when I was receiving ‘429 error’, which means I was hitting maximum number of requests.
 
-![429.png](/posts/Valorant/429.png)
+![429.png](/posts/Dev/429.png)
 
 ## Oversized Documents
 
@@ -36,7 +36,7 @@ Upon fetching the data, I noticed an immediate storage issue. The raw data I ini
 
 I took a methodical approach, scouring the data to pinpoint areas ripe for trimming while ensuring the quality and integrity of our information remained untouched. Unused details were discarded, while critical stats underwent extraction and condensation. My efforts culminated in a drastically trimmed document size around 12KB.
 
-![collection](/posts/Valorant/size.png)
+![collection](/posts/Dev/size.png)
 
 ### Code
 
@@ -185,7 +185,7 @@ Instead of allowing these errors to halt my crawler, I implemented mechanisms to
 
 ## Improvements
 
-![MongoDB](/posts/Valorant/MongoDB.png)
+![MongoDB](/posts/Dev/MongoDB.png)
 
 By harnessing the power of asynchronous programming, fine-tuning data storage methods, and implementing robust error-handling mechanisms, I was able to optimize my data crawler. After reading API documentation multiple times, I was able to identify and extract the precise data I needed. This journey reminded me about the importance of perseverance, adaptability, and innovation in the face of technological hurdles. As developers, it's these trials that hone my skills, pushing me not just to build, but to build better.
 
@@ -193,7 +193,7 @@ By harnessing the power of asynchronous programming, fine-tuning data storage me
 
 Upon completing the website backend support using NestJS with mocked data for front end developers, our team's next goal is to enhance the efficiency and reliability of the crawler system. To achieve this, we intend to integrate with Kafka, which will effectively compartmentalize the crawler and statistical calculation components. This design choice ensures that the infrastructure remains robust and resistant to potential failures in the AWS machines.
 
-![MongoDB](/posts/Valorant/MongoStruct.png)
+![MongoDB](/posts/Dev/MongoStruct.png)
 
 To further refine our statistical calculation mechanism, we plan to establish a separate observer database. This database will utilize the match ID as its MongoDB ID, with "calculations" as keys. The associated values, represented as booleans, will indicate whether the particular calculation has been completed or not. If the observer database value for a specific match ID is set to "false", our stats calculations module will process the corresponding data. 
 
