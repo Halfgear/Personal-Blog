@@ -12,7 +12,7 @@ image: /posts/League/valorant.jpeg
 description: "Data investigation to find easy to play agents"
 toc:
 ---
-## Introduction
+
 The realm of Valorant offers players numerous agents, each boasting unique abilities and strategies to win. But how do players, both new and experienced, navigate this vast selection? 
 
 With a combination of Python programming and a rich dataset extracted from MongoDB, I obtained the performance metrics of various agents across different skill tiers. The result challenges widely held beliefs and shed light on the actual efficacy of agents in various gameplay scenarios. This post will offer insights that can inform and enhance player choices and strategies.
@@ -89,7 +89,7 @@ The chart above showcases the win rate difference between high and low-tier play
 
 <img src="/posts/League/sage_diff.png" style="display: block; margin-left: auto; margin-right: auto; width: 30%; height: 30%;"/>
 
-The common reasoning? Sage's abilities are straightforward, and even if one isn't skilled in direct combat, they can still contribute significantly through her supportive capabilities, which seems very easy like Mercy in Overwatch. 
+Sage's abilities are straightforward, and even if one isn't skilled in direct combat, they can still contribute significantly through her supportive capabilities, which seems very easy like Mercy in Overwatch. 
 
 However, the data tells a different story from this widely held belief. Sage's win rate eclipses her peers in the higher tiers by 1.744%, while Neon lags behind with a decrease of -1.406%. Notably, these two agents possess deviations that are double that of their closest competitor. Ironically, Sage is hard because it is difficult to maximize her supporting value because it requires her to stay alive and farm ult points with kills.
 

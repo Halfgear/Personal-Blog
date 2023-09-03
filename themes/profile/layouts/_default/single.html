@@ -51,6 +51,7 @@
                 {{.TableOfContents}}
               </div>
           </aside>
+          
           {{ end }}
 
           {{ if .Params.tags }}
@@ -129,6 +130,7 @@
 
 {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
 <script src="{{.Site.Params.staticPath}}/js/readingTime.js"></script>
+{{- partial "sections/footer/index.html" . -}}
 {{end}}
 
 {{ end }}
