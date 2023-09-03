@@ -161,10 +161,11 @@ params:
           enable: true
           url: "https://jooncode.com/blog/game/introduction/"
         content: |
-          - Established the backend infrastructure for a Valorant data analytic website using NestJS, MongoDB, PostgreSQL
-          - Designed a data crawler and formulated statistics calculations with Python
-          - Assessed new player needs and translated them into the development strategies
-          - Documented backend structure and inquiries addressed to the CTO in a wiki for future team onboarding
+          - Constructed the website back-end infrastructure using NestJS and PSQL
+          - Developed a reliable data crawler with the capabilities of Kafka topics and consumers
+          - Utilized Python and MongoDB to parse and conduct statistical data analysis, gaining meaningful insights through the evaluation of statistical distributions and normalization
+          - Consistently documented the software stack and addressed inquiries to create a team wiki to facilitate seamless team onboarding for the future members
+
 
 # Experience
   experience2:
