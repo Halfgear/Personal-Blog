@@ -162,8 +162,8 @@ params:
           url: "https://jooncode.com/blog/game/introduction/"
         content: |
           - Constructed the website back-end infrastructure using NestJS and PSQL
+          - Utilized Python and MongoDB to conduct data analysis, gaining meaningful insights through the evaluation of statistical distributions and normalization
           - Developed a reliable data crawler with the capabilities of Kafka topics and consumers
-          - Utilized Python and MongoDB to parse and conduct statistical data analysis, gaining meaningful insights through the evaluation of statistical distributions and normalization
           - Consistently documented the software stack and addressed inquiries to create a team wiki to facilitate seamless team onboarding for the future members
 
 
