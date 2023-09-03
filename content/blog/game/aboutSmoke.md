@@ -11,7 +11,6 @@ tags:
 image: 
 toc:
 ---
-## Introduction
 - Objective:
 Explore if expected Agent difficulty reflects in win rate stats like it does in League of Legend.
 - Dataset Overview: 

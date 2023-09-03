@@ -8,7 +8,6 @@ tags:
 image: /posts/OOD/java.jpeg
 description: "Explanation of Design Patterns for beginners"
 ---
-## Introduction
 
 Design patterns are essential in development as they provide a structured approach to solve common problems. Object-oriented design patterns are the most widely used patterns, and they form the backbone of most software applications. 
 

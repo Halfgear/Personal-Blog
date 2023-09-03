@@ -12,7 +12,6 @@ image: /posts/Dev/api.jpeg
 description: "Journey to build a robust Match Crawler"
 toc:
 ---
-## Introduction
 
 Before I check my insights of Valorant with stats, the foremost task was to construct a robust data crawler. This pivotal first step would act as the foundation, paving the way for any meaningful analysis. When building a data crawler to fetch, process, and store a massive amount of data, challenges are inevitable. As I embarked on my journey to create a crawler for Valorant's match data, I encountered a series of obstacles that pushed me to optimize my approach in terms of speed, storage, and robustness.
 

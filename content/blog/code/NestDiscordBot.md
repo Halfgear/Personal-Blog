@@ -13,7 +13,7 @@ image: /projects/Bot_github.png
 description: "Elaboration of my side project"
 toc:
 ---
-## Introduction 
+
 Software engineering is a rapidly changing field. Every day, new tools and technologies are being released that can help developers more efficiently create and manage applications. As a software engineer, it can be difficult to keep up with all the changes and ensure that you are staying up to date with the latest best practices. In this blog post, I will share my experience reaching out to my [favorite league data analysis youtuber](https://www.youtube.com/channel/UCqI5lyTpC79pOy2D-VXAMdA)'s company and apply my knowlege and skill out side of class.
 
 ![ps spectator](/projects/ps.png)
