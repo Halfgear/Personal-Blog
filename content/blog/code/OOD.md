@@ -5,6 +5,8 @@ draft: false
 author: "HwiJoon Lee"
 tags:
   - Object Oriented Design
+  - Java
+  - Design Patterns
 image: /posts/OOD/java.jpeg
 description: "Explanation of Design Patterns for beginners"
 ---
