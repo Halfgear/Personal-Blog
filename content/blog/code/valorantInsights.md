@@ -42,3 +42,18 @@ description: "New metrics developed by researching valorant API"
 - 클러치횟수는 이런 방식을 통해서 구했다. (코드 및 설명 첨부 예정.)
 
 ![tacticalCycle](/posts/Valorant/tacticalCycle.jpeg)
+
+
+## Agent-Based Rating: A Closer Look at its Nuances
+Traditional combat score systems, often calculated by metrics like damage per point, kill points depending on the number of enemies left, multi-kills, and assists, do provide an overview of a player's combat effectiveness. However, they fall short of capturing the unique abilities and roles of different agents like Raze, Jett, and Reyna. These agents often excel in specific scenarios which can disproportionately inflate their average combat score. Therefore, one can argue that simply ranking players based on average combat scores would not be wholly fair or reflective of their contributions to victories.
+
+One way to address this could be to standardize each agent's combat scores using Gaussian distribution. This allows us to see where a user's score stands in comparison to others who play the same agent. Another element to consider is round-specific normalization, as armor purchases in later rounds can inflate all players' combat scores.
+
+## The Underrated Skill: Trade
+Trade, the act of quickly eliminating an enemy who has killed a teammate, is a skill often overlooked but is crucial in high-level games. A successful trade can offset numerical disadvantages, enabling a more balanced combat scenario. This aspect requires keen teamwork, spatial awareness, and rapid response time. Though most Valorant stat websites don't provide metrics for trading, it’s an essential skill that can be quantified. By capturing the number of trades made by each player through Python coding (code to be attached), a detailed analysis of this skill can be offered.
+
+## Composure: The Make or Break Metric
+Valorant is structured in such a way that it incentivizes strategic cycles; players are encouraged to gather information, plan, and then execute their strategies. Developers emphasize this as the game's core loop. Understanding and staying calm throughout this loop is what we can term as 'composure.' In Valorant, pulling off a difficult clutch is akin to solving a complex puzzle under time pressure.
+
+To quantify composure, one can track the number of clutches a player wins and the number of enemies they were up against during the clutch. A more significant number of enemies should naturally weigh more heavily in the score. This metric can be achieved through careful data scraping of each match, specifically capturing each player's clutch moments.
+
