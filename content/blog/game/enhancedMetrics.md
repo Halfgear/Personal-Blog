@@ -18,7 +18,8 @@ In combat score systems, metrics such as damage per point, kill points based on 
 The accompanying Excel chart displays average combat scores for each agent, collated from real-time game data via my [crawler](https://jooncode.com/blog/code/crawler/). Notably, duelists such as Raze, Jett, and Reyna generally scores higher average combat. This is not an indication of superior skill but rather an inherent bias in scoring metrics toward agents designed for aggressive, high-damage roles. Conversely, Yoru and Neon have a higher skill threshold and their capabilities demand precise execution, which lead to overall lower average combat scores.
 
 ![avs](/posts/Valorant/normalDistribution.jpg)
-### Statistical Approaches for Equitable Player Assessment
+
+### Statistical Approaches for Equitable Assessment
 
 To offer a more nuanced view of player contributions, two advanced statistical methods are required. Firstly, Gaussian distribution can serve as a computational tool to level the playing field among agents. By calculating the mean and standard deviation for each agent’s scores, one can convert these into Z-scores. This standardization allows players to be ranked in context with those who play the same agent, neutralizing any inherent advantages or disadvantages specific to that agent.
 
@@ -32,59 +33,19 @@ While the typical stat lines in Valorant focus on simpler metrics like kills, de
 
 ![trade](/posts/Valorant/trade_example.png)
 
-### The Limitation of Existing Metrics
+### Limitation of Existing Metrics
 
 Interestingly, some stat-tracking websites do record "trade kills," but they fall short by neglecting to capture "traded deaths." The distinction is crucial: dying in a position that allows a teammate to secure a trade kill adds strategic value that current metrics overlook. In contrast, a "untraded death," one that cannot be traded, lacks this additional layer of utility.
 
 By using Python to scrape and analyze data, it becomes possible to quantify trading as a skill. One could capture not just the instances of trade kills but also record instances of traded deaths, thereby providing a fuller picture of a player's tactical value. This approach aligns with the earlier discussion on implementing Gaussian distribution and round-specific normalization to achieve a more comprehensive and equitable evaluation of player performance.
 
-![composure](/posts/Valorant/composure_image.jpg)
-
-## How to Measure Composure
+## Composure
 
 In Valorant, the game is structured to incentivize a strategic loop: players are encouraged to gather information, plan, and execute their strategies. Developers consider this cycle to be the core gameplay loop. Maintaining composure is critical throughout this loop, especially in high-stakes moments. When faced a difficult clutch situation, those who keep their composure are more likely to navigate the challenges successfully, almost as if solving a complex puzzle under extreme time pressure.
 
-```js
-{
-    puuid: 'example',
-    gameName: 'example',
-    tagLine: 'example',
-    teamId: 'Blue',
-    characterId: '569fdd95-4d10-43ab-ca70-79becc718b46',
-    stats: {
-        score: 3645,
-        roundsPlayed: 15,
-        kills: 14,
-        deaths: 5,
-        assists: 6,
-        playtimeMillis: 1431654,
-        abilityCasts: {
-            grenadeCasts: 7,
-            ability1Casts: 0,
-            ability2Casts: 6,
-            ultimateCasts: 0
-        }
-    },
-    competitiveTier: 7,
-    isObserver: false,
-    accountLevel: 48,
-    totalDamageStat: {
-        damage: 3054,
-        headshots: 6,
-        bodyshots: 42,
-        legshots: 8
-    },
-    clutch: {
-        '1': 1,
-        '2': 1,
-        '3': 0,
-        '4': 0,
-        '5': 0
-    },
-    aceCount: 0
-},
-```
+![composure](/posts/Valorant/composure_image.jpg)
 
+### Measuring Composure
 Specifically, I propose tracking the number of clutches a player successfully wins, weighted by the number of enemies they were up against. To facilitate this, I can develop a score chart for 1 vs N clutches, with higher scores assigned to clutches against more enemies. This data would be collected through meticulous scraping of match records, focusing on each player's clutch moments. Each tier on the score chart will represent an expected value of composure along with its distribution. By identifying where a player falls within this distribution, we can offer an empirical measure of their composure in high-stakes situations.
 
 ## Conclusion
