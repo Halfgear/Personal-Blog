@@ -152,8 +152,8 @@ params:
     items:
       - job: "Software Developer"
         company: "PS Analytics"
-        companySmallTitle: "lol.ps"
-        companyUrl: "https://lol.ps"
+        companySmallTitle: "valps.gg"
+        companyUrl: "https://prod.valps.gg"
         date: "Nov 2022 - present"
         info:
           enable: false
