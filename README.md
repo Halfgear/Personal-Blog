@@ -1,4 +1,4 @@
-# Your Hugo-Based Blog Repository
+# Jooncode.com
 
 Welcome to the repository for my personal blog, which is built using the Hugo static site generator.
 
