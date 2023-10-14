@@ -1,4 +1,4 @@
-# [Jooncode.com](https//:jooncode.com)
+# [Jooncode.com](https://jooncode.com/)
 
 Welcome to the repository for my personal blog, which is built using the Hugo static site generator.
 
