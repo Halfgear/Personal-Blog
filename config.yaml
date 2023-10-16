@@ -98,7 +98,7 @@ params:
     intro: "Welcome! my name is"
     title: "HwiJoon Lee"
     subtitle: "Software developer"
-    content: "I want to make games more captivating and accessible for new players. Join me as we explore my insights into backend development!"
+    content: "Exploring Backend Development and Beyond"
     image: /me/AI.jpg
 
     # roundImage: true # Make hero image circular | default false
@@ -131,7 +131,7 @@ params:
     content: |-
       I am a developer who wants to excel, not only in coding, but in understanding the particular needs of users. My focus is on streamlining user experience. 
     
-      I am currently developing an education product to assist new Valorant players in learning gameplay and improving overall.
+      I am currently developing an intuitive product to assist new Valorant players in learning gameplay and improving overall.
 
       
     skills:
