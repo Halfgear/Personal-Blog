@@ -30,14 +30,17 @@ toc:
 ## 1. Understanding the Problem
 - Elaborate on the importance of knowing what the client needs and understanding their pain points.
 - Discuss the value of empathy and good communication skills in understanding a client's problem.
+- picking appropriate tool to acheive the goal appropriately. (No overkill in time, cost, resourse wise)
 
 ## 2. Problem-Solving
 - Emphasize that a good developer should be able to come up with creative and effective solutions, not just in terms of code but also in other aspects like user experience.
 - Give examples like the "mirror in the elevator" to illustrate how problem-solving isn't limited to coding.
+- Creating good business value. (knowing what is the priority for the company. What is the product trying to reslove. What is the unique property of the client of our product?)
 
 ## 3. A Strong Desire to Learn
 - Discuss the ever-changing landscape of technology and why continuous learning is essential.
 - Point out the wealth of resources available online and the importance of being open to learning new tools and stacks.
+- know when to seek help (TO do this, need to know context of the problem. like what is causing the problem? what did you try? what is the potential solution you thought about?)
 
 # Conclusion
 - Summarize the key points: understanding the problem, problem-solving abilities, and a strong desire to learn.
