@@ -12,9 +12,11 @@
                 <h3>
                     {{ .Site.Params.hero.subtitle }}
                 </h3>
-                <p class="hero-content">
-                    {{ .Site.Params.hero.content | markdownify }}
-                </p>
+                <ul class="hero-content">
+                    {{ range .Site.Params.about.skills.items }}
+                    <li>{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
                 <div class="row">
                     <div class="col-auto h-100">
                         {{ if .Site.Params.hero.button.enable }}
