@@ -1,5 +1,5 @@
 ---
-title: "The Irreplaceable Developer"
+title: "Irreplaceable Developer"
 date: 2023-10-14
 draft: false
 github_link: "https://github.com/Halfgear"
@@ -9,6 +9,7 @@ tags:
   - Developer
 image: /posts/Dev/goodDev.jpeg
 toc:
+description: "How to become a irreplaceable developer"
 ---
 ## Introduction
 In today's fast-paced technological landscape, the role of a software developer is undergoing a rapid shift. The traditional responsibility of coding, debugging, and deployment are now just the baseline knowledge.The rise of AI-assisted tools like GitHub Copilot and language models like ChatGPT has accelerated this change, streamlining the coding process and enhancing code quality.
