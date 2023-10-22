@@ -25,12 +25,12 @@ The pace at which developer tools and stacks have evolved is impressive, particu
 
 Personally, I do not to use Copilot for code generation. I prefer to review the code it suggests to understand the rationale behind it and learn something new, rather than letting it handle all the tasks for me.
 
-## Why Just Coding Isn't Enough
+## Just Coding Isn't Enough
 Building on the rapid advancements in developer tools, it's evident that just knowing how to code is no longer enough. GitHub Copilot and similar AI tools are automating many aspects of what was traditionally the developer's role. As such, developers who focus solely on coding tasks may soon find themselves falling behind.
 
 ![human-computer](/posts/Dev/human-computer.jpg)
 
-### Why I Chose Human-Centered Computing as My CS Major Concentration
+### Why I Chose Human-Centered Computing
 
 This evolving landscape in the field of Computer Science led me to choose Human-Centered Computing as my concentration. While I appreciate the efficiency that AI brings to tasks like coding, I also recognize its potential challenges. There's growing speculation that AI could eventually take over more complex roles like law and medicine.  
 
