@@ -60,7 +60,7 @@ Understanding the business context is also crucial. A developer who knows the co
 
 ![help](/posts/Dev/help.jpg)
 
-### 3. Seeking Proper Help
+### 3. Work Ethics
 
 The last point is knowing when and how to seek help. While independence is a valuable trait, no developer works alone in an island. The key is to seek help effectively, which means understanding the context of the problem you're facing. What's causing the issue? What solutions have you tried? What are the potential paths forward you've considered? This background preparation ensures that when you do ask for help, you can do so in a way that respects others' time and increases the chances of finding a useful solution.
 

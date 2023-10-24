@@ -99,7 +99,7 @@ params:
     title: "HwiJoon Lee"
     subtitle: "Software developer"
     content: "Exploring Backend Development and Beyond"
-    image: /me/AI.jpg
+    image: /me/selfie.jpeg
 
     # roundImage: true # Make hero image circular | default false
     button:
