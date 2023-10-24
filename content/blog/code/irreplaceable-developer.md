@@ -58,11 +58,14 @@ The second point in being an irreplaceable developer is problem-solving, and not
 
 Understanding the business context is also crucial. A developer who knows the company's priorities, the unique challenges of the product, and the specific needs of their client or customer base can craft solutions that aligned with business goals. Creating business value, coupled with innovative problem-solving, elevates a developer from being merely competent to truly exceptional.
 
-![help](/posts/Dev/help.jpg)
+![work_ethic](/posts/Dev/work_ethic.jpeg)
 
 ### 3. Work Ethics
+The topic of work ethics in the tech industry often sparks interesting debates, particularly the notion of working overtime or 'hustling,' which many argue disproportionately benefits CEOs and company owners. While I recognize the controversy surrounding this, I firmly believe that a strong work ethic is crucial to becoming an irreplaceable developer.
 
-The last point is knowing when and how to seek help. While independence is a valuable trait, no developer works alone in an island. The key is to seek help effectively, which means understanding the context of the problem you're facing. What's causing the issue? What solutions have you tried? What are the potential paths forward you've considered? This background preparation ensures that when you do ask for help, you can do so in a way that respects others' time and increases the chances of finding a useful solution.
+The essence of work ethics goes beyond clocking extra hours; it's about responsibility and accountability. These attributes serve as catalysts for personal and professional growth. By taking responsibility for your tasks and being accountable for your actions, you can push yourself through challenges and learning opportunities that you might otherwise avoid. This has a domino effect, not just improving your skill set but also making you a reliable asset to any team.
+
+That said, it's essential to strike a balance. While strong work ethics can accelerate your growth, it shouldn't come at the cost of your well-being or work-life balance. Prioritize tasks effectively and know when to ask for help or delegate without burning yourself out.
 
 ![personal-growth](/posts/Dev/personal-growth.jpeg)
 
