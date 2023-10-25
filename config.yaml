@@ -139,11 +139,11 @@ params:
       title: "Related Skills"
       items:
         - "Python"
-        - "C++"
         - "TypeScript"
-        - "Docker"
-        - "PostgresSQL"
-        - "MongoDB"
+        - "Java"
+        - "C++"
+        - "SQL"
+        - "NOSQL"
 
   # Experience
   experience:
